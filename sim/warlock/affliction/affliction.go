@@ -52,6 +52,10 @@ type AfflictionWarlock struct {
 	DrainSoulMaleficEffectMultiplier    float64
 	MaleficGraspMaleficEffectMultiplier float64
 	ProcMaleficEffect                   func(target *core.Unit, coeff float64, sim *core.Simulation)
+
+	//hauntDamageEstimate int32
+	//sbssDamageEstimate  int32
+	//dsDamageCost        int32
 }
 
 func (affliction AfflictionWarlock) getMasteryBonus() float64 {

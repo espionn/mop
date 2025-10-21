@@ -80,6 +80,10 @@ func (affliction *AfflictionWarlock) registerHaunt() {
 				}
 			})
 		},
+		ExpectedInitialDamage: func(sim *core.Simulation, target *core.Unit, spell *core.Spell, _ bool) *core.SpellResult {
+			baseDamage := affliction.CalcScalingSpellDmg(hauntScale)
+			return spell.CalcDamage(sim, target, baseDamage, spell.OutcomeAlwaysHit) // * affliction.PseudoStats.CritDamageMultiplier * affliction.Stats.SpellCritPercent
+		},
 	})
 }
 
