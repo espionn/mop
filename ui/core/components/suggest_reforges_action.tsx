@@ -388,7 +388,7 @@ export class ReforgeOptimizer {
 	}
 
 	get softCapsConfigWithLimits() {
-		if (!this.enableBreakpointLimits) return this.softCapsConfig;
+		if (!this.enableBreakpointLimits || !this.useSoftCapBreakpoints) return this.softCapsConfig;
 
 		const softCaps = StatCap.cloneSoftCaps(this.softCapsConfig);
 		for (const [unitStat, limit] of this.breakpointLimits.asUnitStatArray()) {
