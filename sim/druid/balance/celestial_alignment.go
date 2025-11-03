@@ -17,11 +17,12 @@ func (moonkin *BalanceDruid) registerCelestialAlignmentSpell() {
 		OnGain: func(_ *core.Aura, sim *core.Simulation) {
 			moonkin.SuspendEclipseBar()
 
-			// Activate both eclipse damage bonuses
+			moonkin.UpdateEclipseSpellMod(core.SpellSchoolArcane|core.SpellSchoolNature, true, sim)
 			moonkin.ActivateEclipse(LunarEclipse, sim)
 			moonkin.ActivateEclipse(SolarEclipse, sim)
 		},
 		OnExpire: func(_ *core.Aura, sim *core.Simulation) {
+			moonkin.UpdateEclipseSpellMod(core.SpellSchoolNone, false, sim)
 			moonkin.DeactivateEclipse(LunarEclipse, sim)
 			moonkin.DeactivateEclipse(SolarEclipse, sim)
 
