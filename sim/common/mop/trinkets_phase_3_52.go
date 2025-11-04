@@ -584,7 +584,7 @@ func init() {
 			createStatBuffAura := func(label string, spellID int32) *core.StatBuffAura {
 				return &core.StatBuffAura{
 					Aura: character.RegisterAura(core.Aura{
-						Label:    fmt.Sprintf("Re-Origination - %s", label),
+						Label:    fmt.Sprintf("Re-Origination (%s) - %s", versionLabel, label),
 						ActionID: core.ActionID{SpellID: spellID},
 						Duration: duration,
 						OnGain: func(aura *core.Aura, sim *core.Simulation) {

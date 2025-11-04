@@ -45,16 +45,16 @@ export const RORO_BIS_EP_PRESET = PresetUtils.makePresetEpWeights(
 	Stats.fromMap(
 		{
 			[Stat.StatAgility]: 1.0,
-			[Stat.StatHitRating]: 1.66,
-			[Stat.StatCritRating]: 0.69,
-			[Stat.StatHasteRating]: 0.83,
-			[Stat.StatExpertiseRating]: 1.39,
-			[Stat.StatMasteryRating]: 0.32,
+			[Stat.StatHitRating]: 1.79,
+			[Stat.StatCritRating]: 0.74,
+			[Stat.StatHasteRating]: 0.89,
+			[Stat.StatExpertiseRating]: 1.49,
+			[Stat.StatMasteryRating]: 0.34,
 			[Stat.StatAttackPower]: 0.35,
 		},
 		{
-			[PseudoStat.PseudoStatMainHandDps]: 2.35,
-			[PseudoStat.PseudoStatOffHandDps]: 1.18,
+			[PseudoStat.PseudoStatMainHandDps]: 2.33,
+			[PseudoStat.PseudoStatOffHandDps]: 1.17,
 		},
 	),
 );

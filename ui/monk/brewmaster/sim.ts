@@ -199,8 +199,6 @@ export class BrewmasterMonkSimUI extends IndividualSimUI<Spec.SpecBrewmasterMonk
 			MonkUtils.setTalentBasedSettings(player);
 		});
 
-		player.sim.waitForInit().then(() => {
-			this.reforger = new ReforgeOptimizer(this);
-		});
+		this.reforger = new ReforgeOptimizer(this);
 	}
 }
