@@ -28,10 +28,10 @@ export const P1_BIS_DW_GEAR_PRESET = PresetUtils.makePresetGear('P1 - BIS (Balan
 export const P2_BIS_DW_GEAR_PRESET = PresetUtils.makePresetGear('P2 - BIS (Balanced)', P2BISDWGear);
 export const P2_BIS_OFFENSIVE_DW_GEAR_PRESET = PresetUtils.makePresetGear('P2 - BIS (Offensive - 2PC)', P2BISOffensiveDWGear);
 export const P2_BIS_OFFENSIVE_TIERLESS_DW_GEAR_PRESET = PresetUtils.makePresetGear('P2 - BIS (Offensive - No Tier)', P2BISOffensiveTierlessDWGear);
-export const P3_PROG_DW_GEAR_PRESET = PresetUtils.makePresetGear('P3 - Prog (Balanced)', P3ProgDWGear);
-export const P3_BIS_DW_GEAR_PRESET = PresetUtils.makePresetGear('P3 - BIS (Balanced)', P3BISDWGear);
-export const P3_BIS_OFFENSIVE_DW_GEAR_PRESET = PresetUtils.makePresetGear('P3 - BIS (Offensive)', P3OffensiveDWGear);
-export const P3_BIS_OFFENSIVE_DW_RORO_GEAR_PRESET = PresetUtils.makePresetGear('P3 - BIS (Offensive - RoRo)', P3OffensiveRoRoDWGear);
+export const P3_PROG_DW_GEAR_PRESET = PresetUtils.makePresetGear('Tentative - P3 - Prog (Balanced)', P3ProgDWGear);
+export const P3_BIS_DW_GEAR_PRESET = PresetUtils.makePresetGear('Tentative - P3 - BIS (Balanced)', P3BISDWGear);
+export const P3_BIS_OFFENSIVE_DW_GEAR_PRESET = PresetUtils.makePresetGear('Tentative - P3 - BIS (Offensive)', P3OffensiveDWGear);
+export const P3_BIS_OFFENSIVE_DW_RORO_GEAR_PRESET = PresetUtils.makePresetGear('Tentative - P3 - BIS (Offensive - RoRo)', P3OffensiveRoRoDWGear);
 
 export const ROTATION_PRESET = PresetUtils.makePresetAPLRotation('Generic', DefaultApl);
 export const ROTATION_GARAJAL_PRESET = PresetUtils.makePresetAPLRotation("Gara'jal", GarajalApl);
