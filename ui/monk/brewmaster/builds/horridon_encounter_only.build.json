@@ -32,7 +32,6 @@
     "race": "RaceOrc",
     "class": "ClassMonk",
     "consumables": {
-      "prepotId": 76090,
       "potId": 76090,
       "flaskId": 76087,
       "foodId": 74656,
