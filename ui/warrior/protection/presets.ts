@@ -6,6 +6,7 @@ import { Stats } from '../../core/proto_utils/stats';
 import GenericApl from './apls/default.apl.json';
 import GarajalApl from './apls/garajal.apl.json';
 import ShaApl from './apls/sha.apl.json';
+import HorridonApl from './apls/horridon.apl.json';
 import GarajalBuild from './builds/garajal_encounter_only.build.json';
 import ShaBuild from './builds/sha_encounter_only.build.json';
 import HorridonBuild from './builds/horridon_encounter_only.build.json';
@@ -35,6 +36,7 @@ export const P2_ITEM_SWAP = PresetUtils.makePresetItemSwapGear('P2 - Item Swap',
 export const ROTATION_GENERIC = PresetUtils.makePresetAPLRotation('Generic', GenericApl);
 export const ROTATION_GARAJAL = PresetUtils.makePresetAPLRotation("Gara'jal", GarajalApl);
 export const ROTATION_SHA = PresetUtils.makePresetAPLRotation('Sha of Fear', ShaApl);
+export const ROTATION_HORRIDON = PresetUtils.makePresetAPLRotation('Horridon', HorridonApl);
 
 // Preset options for EP weights
 export const P2_EP_PRESET = PresetUtils.makePresetEpWeights(

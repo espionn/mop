@@ -136,7 +136,7 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecProtectionWarrior, {
 		// Preset talents that the user can quickly select.
 		talents: [Presets.StandardTalents],
 		// Preset rotations that the user can quickly select.
-		rotations: [Presets.ROTATION_GENERIC, Presets.ROTATION_GARAJAL, Presets.ROTATION_SHA],
+		rotations: [Presets.ROTATION_GENERIC, Presets.ROTATION_GARAJAL, Presets.ROTATION_SHA, Presets.ROTATION_HORRIDON],
 		// Preset gear configurations that the user can quickly select.
 		gear: [
 			Presets.PRERAID_BALANCED_PRESET,
