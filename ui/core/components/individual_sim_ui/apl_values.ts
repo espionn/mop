@@ -3,8 +3,10 @@ import { itemSwapEnabledSpecs } from '../../individual_sim_ui.js';
 import {
 	APLValue,
 	APLValueAllTrinketStatProcsActive,
+	APLValueAnyTrinketStatProcsAvailable,
 	APLValueAnd,
 	APLValueAnyStatBuffCooldownsActive,
+	APLValueAnyStatBuffCooldownsMinDuration,
 	APLValueAnyTrinketStatProcsActive,
 	APLValueAuraInternalCooldown,
 	APLValueAuraIsActive,
@@ -46,6 +48,7 @@ import {
 	APLValueDotPercentIncrease,
 	APLValueDotRemainingTime,
 	APLValueDotTickFrequency,
+	APLValueAfflictionCurrentSnapshot,
 	APLValueEnergyRegenPerSecond,
 	APLValueEnergyTimeToTarget,
 	APLValueFocusRegenPerSecond,
@@ -105,6 +108,7 @@ import {
 	APLValueVariablePlaceholder,
 	APLValueWarlockHandOfGuldanInFlight,
 	APLValueWarlockHauntInFlight,
+	APLValueAfflictionExhaleWindow,
 	APLValueAuraIsInactive,
 	APLValueAuraICDIsReady,
 	APLValueActiveItemSwapSet,
@@ -113,6 +117,7 @@ import {
 	APLValueSpellFullCooldown,
 	APLValueDotTimeToNextTick,
 	APLValueSpellInFlight,
+	APLValueBossCurrentTarget,
 } from '../../proto/apl.js';
 import { Class, Spec } from '../../proto/common.js';
 import { ShamanTotems_TotemType as TotemType } from '../../proto/shaman.js';
@@ -663,6 +668,13 @@ const valueKindFactories: { [f in ValidAPLValueKind]: ValueKindConfig<APLValueIm
 		shortDescription: i18n.t('rotation_tab.apl.values.spell_time_to_ready.tooltip'),
 		newValue: APLValueBossSpellTimeToReady.create,
 		fields: [AplHelpers.unitFieldConfig('targetUnit', 'targets'), AplHelpers.actionIdFieldConfig('spellId', 'spells', 'targetUnit', 'currentTarget')],
+	}),
+	bossCurrentTarget: inputBuilder({
+		label: i18n.t('rotation_tab.apl.values.boss_current_target.label'),
+		submenu: ['boss'],
+		shortDescription: i18n.t('rotation_tab.apl.values.boss_current_target.tooltip'),
+		newValue: APLValueBossCurrentTarget.create,
+		fields: [AplHelpers.unitFieldConfig('targetUnit', 'targets')],
 	}),
 
 	// Unit
@@ -1294,6 +1306,24 @@ const valueKindFactories: { [f in ValidAPLValueKind]: ValueKindConfig<APLValueIm
 			AplHelpers.minIcdInput,
 		],
 	}),
+	anyTrinketStatProcsAvailable: inputBuilder({
+		label: i18n.t('rotation_tab.apl.values.any_trinket_stat_procs_available.label'),
+		submenu: ['aura_sets'],
+		shortDescription: i18n.t('rotation_tab.apl.values.any_trinket_stat_procs_available.tooltip'),
+		fullDescription: i18n.t('rotation_tab.apl.values.any_trinket_stat_procs_available.full_description'),
+		newValue: () =>
+			APLValueAnyTrinketStatProcsAvailable.create({
+				statType1: -1,
+				statType2: -1,
+				statType3: -1,
+			}),
+		fields: [
+			AplHelpers.statTypeFieldConfig('statType1'),
+			AplHelpers.statTypeFieldConfig('statType2'),
+			AplHelpers.statTypeFieldConfig('statType3'),
+			AplHelpers.minIcdInput,
+		],
+	}),
 	trinketProcsMinRemainingTime: inputBuilder({
 		label: i18n.t('rotation_tab.apl.values.trinket_procs_min_remaining_time.label'),
 		submenu: ['aura_sets'],
@@ -1365,6 +1395,19 @@ const valueKindFactories: { [f in ValidAPLValueKind]: ValueKindConfig<APLValueIm
 		fullDescription: i18n.t('rotation_tab.apl.values.any_stat_buff_cooldowns_active.full_description'),
 		newValue: () =>
 			APLValueAnyStatBuffCooldownsActive.create({
+				statType1: -1,
+				statType2: -1,
+				statType3: -1,
+			}),
+		fields: [AplHelpers.statTypeFieldConfig('statType1'), AplHelpers.statTypeFieldConfig('statType2'), AplHelpers.statTypeFieldConfig('statType3')],
+	}),
+	anyStatBuffCooldownsMinDuration: inputBuilder({
+		label: i18n.t('rotation_tab.apl.values.any_stat_buff_cooldowns_min_duration.label'),
+		submenu: ['aura_sets'],
+		shortDescription: i18n.t('rotation_tab.apl.values.any_stat_buff_cooldowns_min_duration.tooltip'),
+		fullDescription: i18n.t('rotation_tab.apl.values.any_stat_buff_cooldowns_min_duration.full_description'),
+		newValue: () =>
+			APLValueAnyStatBuffCooldownsMinDuration.create({
 				statType1: -1,
 				statType2: -1,
 				statType3: -1,
@@ -1526,6 +1569,25 @@ const valueKindFactories: { [f in ValidAPLValueKind]: ValueKindConfig<APLValueIm
 		includeIf: (player: Player<any>, _isPrepull: boolean) => player.getSpec() == Spec.SpecAfflictionWarlock,
 		fields: [],
 	}),
+	afflictionExhaleWindow: inputBuilder({
+		label: i18n.t('rotation_tab.apl.values.affliction_exhale_window.label'),
+		submenu: ['warlock'],
+		shortDescription: i18n.t('rotation_tab.apl.values.affliction_exhale_window.tooltip'),
+		newValue: APLValueAfflictionExhaleWindow.create,
+		includeIf: (player: Player<any>, _isPrepull: boolean) => player.getSpec() == Spec.SpecAfflictionWarlock,
+		fields: [],
+	}),
+	afflictionCurrentSnapshot: inputBuilder({
+		label: i18n.t('rotation_tab.apl.values.affliction_current_snapshot.label'),
+		submenu: ['warlock'],
+		shortDescription: i18n.t('rotation_tab.apl.values.affliction_current_snapshot.tooltip'),
+		newValue: APLValueAfflictionCurrentSnapshot.create,
+		includeIf: (player: Player<any>, _isPrepull: boolean) => player.getSpec() == Spec.SpecAfflictionWarlock,
+		fields: [
+			AplHelpers.unitFieldConfig('targetUnit', 'targets'),
+			AplHelpers.actionIdFieldConfig('spellId', 'expected_dot_spells', ''),
+		],
+	}),
 	mageCurrentCombustionDotEstimate: inputBuilder({
 		label: i18n.t('rotation_tab.apl.values.mage_current_combustion_dot_estimate.label'),
 		submenu: ['mage'],
@@ -1550,6 +1612,7 @@ const valueKindFactories: { [f in ValidAPLValueKind]: ValueKindConfig<APLValueIm
 		includeIf: (player: Player<any>, _isPrepull: boolean) => player.getSpec() === Spec.SpecProtectionPaladin,
 		fields: [],
 	}),
+
 	variableRef: inputBuilder({
 		label: 'Variable Reference',
 		submenu: ['Variables'],

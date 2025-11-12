@@ -2465,6 +2465,38 @@
                     "tooltip"
                   ]
                 },
+                "jalak_death_time": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
+                "taunt_swap_for_triple_puncture": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
                 "movement_interval": {
                   "type": "object",
                   "properties": {
@@ -2519,6 +2551,8 @@
                 "label",
                 "frenzy_time",
                 "spiritual_grasp_frequency",
+                "jalak_death_time",
+                "taunt_swap_for_triple_puncture",
                 "movement_interval",
                 "reaction_time",
                 "yards"
@@ -4827,6 +4861,22 @@
                     "tooltip"
                   ]
                 },
+                "boss_current_target": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
                 "unit_is_moving": {
                   "type": "object",
                   "properties": {
@@ -5883,6 +5933,22 @@
                     "full_description"
                   ]
                 },
+                "any_trinket_stat_procs_available": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
                 "trinket_procs_min_remaining_time": {
                   "type": "object",
                   "properties": {
@@ -5969,6 +6035,22 @@
                     "label",
                     "tooltip",
                     "full_description"
+                  ]
+                },
+                "any_stat_buff_cooldowns_min_duration": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
                   ]
                 },
                 "dot_is_active": {
@@ -6227,6 +6309,22 @@
                     "tooltip"
                   ]
                 },
+				"affliction_current_snapshot": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
                 "mage_current_combustion_dot_estimate": {
                   "type": "object",
                   "properties": {
@@ -6260,6 +6358,22 @@
                   ]
                 },
                 "protection_paladin_damage_taken_last_global": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "tooltip": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "tooltip"
+                  ]
+                },
+				"affliction_exhale_window": {
                   "type": "object",
                   "properties": {
                     "label": {
@@ -6364,6 +6478,7 @@
                 "in_front_of_target",
                 "boss_cast",
                 "boss_cast_time_to_ready",
+                "boss_current_target",
                 "unit_is_moving",
                 "distance_to_unit",
                 "current_health",
@@ -6456,7 +6571,8 @@
                 "aura_remaining_icd",
                 "aura_icd_is_ready",
                 "aura_icd_is_ready_with_reaction_time",
-                "overlap"
+                "overlap",
+                "affliction_exhale_window"
               ]
             },
             "operators": {
@@ -7572,6 +7688,32 @@
               "required": [
                 "elemental"
               ]
+            },
+            "warlock": {
+              "type": "object",
+              "properties": {
+                "affliction": {
+                  "type": "object",
+                  "properties": {
+                    "exhale_window": {
+                      "type": "object",
+                      "properties": {
+                        "label": {
+                          "type": "string"
+                        },
+                        "tooltip": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                        "label",
+                        "tooltip"
+                      ]
+                    }
+                  }
+                }
+              }
             },
             "hunter": {
               "type": "object",

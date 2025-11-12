@@ -2,6 +2,7 @@ package dbc
 
 import (
 	"math"
+	"slices"
 
 	"github.com/wowsims/mop/sim/core"
 	"github.com/wowsims/mop/sim/core/proto"
@@ -118,8 +119,10 @@ func (item *Item) ToScaledUIItem(itemLevel int) *proto.UIItem {
 	return uiItem
 }
 
+var SetIdExlcudeOverrides = []int{1152, 1172}
+
 func (item *Item) CanUpgrade() bool {
-	return item.ItemLevel >= core.MinUpgradeIlvl && UPGRADE_SYSTEM_ACTIVE && item.Flags2.Has(CAN_BE_UPGRADED) && item.UpgradeID > 0
+	return item.ItemLevel >= core.MinUpgradeIlvl && UPGRADE_SYSTEM_ACTIVE && item.Flags2.Has(CAN_BE_UPGRADED) && item.UpgradeID > 0 && !slices.Contains(SetIdExlcudeOverrides, item.ItemSetId)
 }
 
 func (item *Item) GetMaxIlvl() int {

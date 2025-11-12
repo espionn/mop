@@ -373,6 +373,10 @@ export class ReforgeOptimizer {
 				this.setUseSoftCapBreakpoints(eventID, false);
 			}
 		});
+
+		this.player.gearChangeEmitter.on(eventID => {
+			this.setRelativeStatCap(eventID, this.relativeStatCapStat);
+		});
 	}
 
 	private bindToggleExperimental(element: Element) {
@@ -411,7 +415,7 @@ export class ReforgeOptimizer {
 		if (!this.useCustomEPValues) {
 			if (this.getEPDefaults) {
 				weights = this.getEPDefaults?.(this.player);
-			} else if (!this.player.hasCustomEPWeights()) {
+			} else if (this.player.hasCustomEPWeights()) {
 				weights = this.defaults.epWeights;
 			}
 		}
@@ -595,7 +599,7 @@ export class ReforgeOptimizer {
 	}
 	setRelativeStatCap(eventID: EventID, newValue: number) {
 		this.relativeStatCapStat = newValue;
-		if (this.relativeStatCapStat === -1) {
+		if ((this.relativeStatCapStat === -1) || !RelativeStatCap.hasRoRo(this.player)) {
 			this.relativeStatCap = null;
 		} else {
 			this.relativeStatCap = new RelativeStatCap(this.relativeStatCapStat, this.player, this.playerClass);
@@ -933,7 +937,10 @@ export class ReforgeOptimizer {
 								return this.toVisualUnitStatPercentage(this.statCaps.getUnitStat(unitStat), unitStat);
 							},
 							setValue: (_eventID, _player, newValue) => {
-								this.setStatCaps(TypedEvent.nextEventID(), this.statCaps.withUnitStat(unitStat, newValue));
+								this.setStatCaps(
+									TypedEvent.nextEventID(),
+									this.statCaps.withUnitStat(unitStat, this.toDefaultUnitStatValue(newValue, unitStat)),
+								);
 							},
 						};
 

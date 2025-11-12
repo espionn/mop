@@ -60,16 +60,16 @@ export const simLaunchStatuses: Record<Spec, SimStatus> = {
 	},
 	// Hunter
 	[Spec.SpecBeastMasteryHunter]: {
-		phase: Phase.Phase1,
-		status: LaunchStatus.Alpha,
+		phase: Phase.Phase2,
+		status: LaunchStatus.Launched,
 	},
 	[Spec.SpecMarksmanshipHunter]: {
-		phase: Phase.Phase1,
-		status: LaunchStatus.Alpha,
+		phase: Phase.Phase2,
+		status: LaunchStatus.Launched,
 	},
 	[Spec.SpecSurvivalHunter]: {
-		phase: Phase.Phase1,
-		status: LaunchStatus.Alpha,
+		phase: Phase.Phase2,
+		status: LaunchStatus.Launched,
 	},
 	// Mage
 	[Spec.SpecArcaneMage]: {
@@ -152,7 +152,7 @@ export const simLaunchStatuses: Record<Spec, SimStatus> = {
 	// Warlock
 	[Spec.SpecAfflictionWarlock]: {
 		phase: Phase.Phase2,
-		status: LaunchStatus.Beta,
+		status: LaunchStatus.Launched,
 	},
 	[Spec.SpecDemonologyWarlock]: {
 		phase: Phase.Phase2,

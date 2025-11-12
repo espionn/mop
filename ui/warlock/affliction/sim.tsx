@@ -11,6 +11,7 @@ import { StatCapType } from '../../core/proto/ui';
 import { DEFAULT_CASTER_GEM_STATS, StatCap, Stats, UnitStat } from '../../core/proto_utils/stats';
 import { formatToNumber } from '../../core/utils';
 import * as WarlockInputs from '../inputs';
+import * as AffInputs from './inputs';
 import * as Presets from './presets';
 
 const relevantDotBreakpoints = [
@@ -133,7 +134,7 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecAfflictionWarlock, {
 	// Inputs to include in the 'Other' section on the settings tab.
 	otherInputs: {
 		inputs: [
-			WarlockInputs.DetonateSeed(),
+			AffInputs.ExhaleWindow,
 			OtherInputs.InputDelay,
 			OtherInputs.DistanceFromTarget,
 			OtherInputs.TankAssignment,
@@ -151,14 +152,20 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecAfflictionWarlock, {
 		// Preset talents that the user can quickly select.
 		talents: [Presets.AfflictionTalents],
 		// Preset rotations that the user can quickly select.
-		rotations: [Presets.APL_Default],
+		rotations: [Presets.APL_Default, Presets.APL_Multitarget],
+		// Preset configurations (encounter, rotation, talents)
+		builds: [Presets.PRESET_SINGLETARGET, Presets.PRESET_MULTITARGET],
 
 		// Preset gear configurations that the user can quickly select.
-		gear: [Presets.PRERAID_PRESET, Presets.P1_PRESET, Presets.P2_PRESET],
+		gear: [Presets.PRERAID_PRESET, Presets.P1_PRESET, Presets.P2_PRESET, Presets.P3_PRESET],
 		itemSwaps: [],
 	},
 
 	autoRotation: (_player: Player<Spec.SpecAfflictionWarlock>): APLRotation => {
+		const numTargets = _player.sim.encounter.targets.length;
+
+		if (numTargets > 1) return Presets.APL_Multitarget.rotation.rotation!;
+
 		return Presets.APL_Default.rotation.rotation!;
 	},
 

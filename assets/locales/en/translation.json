@@ -596,6 +596,14 @@
 					"label": "Spiritual Grasp frequency",
 					"tooltip": "Average time (in seconds) between Spiritual Grasp hits, following an exponential distribution"
 				},
+				"jalak_death_time": {
+					"label": "Jalak death time",
+					"tooltip": "Simulation time (in seconds) at which to disable War-God Jalak and trigger the Rampage buff on Horridon. If set longer than the simulated fight length, then Jalak will be tanked the entire time and Rampage will never be triggered."
+				},
+				"taunt_swap_for_triple_puncture": {
+					"label": "Taunt swap for Triple Puncture",
+					"tooltip": "If checked, taunt swap upon Jalak's death and on every other Triple Puncture application afterwards in order to limit stack accumulation on a single tank."
+				},
 				"movement_interval": {
 					"label": "Movement Interval",
 					"tooltip": "How often the player will move in seconds"
@@ -1161,6 +1169,10 @@
 					"label": "Boss Cast Time to Ready",
 					"tooltip": "Time until the boss spell will be ready"
 				},
+				"boss_current_target": {
+					"label": "Is Tanking",
+					"tooltip": "True if the player is currently tanking"
+				},
 				"unit_is_moving": {
 					"label": "Unit Is Moving",
 					"tooltip": "True if the unit is moving"
@@ -1425,6 +1437,10 @@
 					"tooltip": "<b>True</b> if any item/enchant procs that buff the specified stat type(s) are currently active, otherwise <b>False</b>.",
 					"full_description": "<p>For stacking proc buffs, this condition also checks that the buff has been stacked to its maximum possible strength.</p>"
 				},
+				"any_trinket_stat_procs_available": {
+					"label": "Any Item Proc Buff Available",
+					"tooltip": "<b>True</b> if any item/enchant procs that buff the specified stat type(s) are currently not on ICD and aren't active, otherwise <b>False</b>."
+				},
 				"trinket_procs_min_remaining_time": {
 					"label": "Item Procs Min Remaining Time",
 					"tooltip": "Shortest remaining duration on any active item/enchant procs that buff the specified stat type(s), or infinity if none are currently active."
@@ -1446,6 +1462,10 @@
 					"label": "Any Stat Buff Cooldowns Active",
 					"tooltip": "<b>True</b> if any registered Major Cooldowns that buff the specified stat type(s) are currently active, otherwise <b>False</b>.",
 					"full_description": "<p>For stacking buffs, this condition also checks that the buff has been stacked to its maximum possible strength after the cooldown is activated.</p><p>Both manually casted cooldowns as well as cooldowns controlled by \"Cast All Stat Buff Cooldowns\" and \"Autocast Other Cooldowns\" actions are checked.</p>"
+				},
+				"any_stat_buff_cooldowns_min_duration": {
+					"label": "Any Stat Buff Cooldowns Min Remaining Time",
+					"tooltip": "Shortest remaining duration on any registered Major Cooldown that buff the specified stat type(s), or infinity if none are currently active."
 				},
 				"dot_is_active": {
 					"label": "Dot Is Active",
@@ -1510,6 +1530,14 @@
 				"warlock_haunt_in_flight": {
 					"label": "[DEPRECATED] Haunt In Flight",
 					"tooltip": "Returns <b>True</b> if Haunt currently is in flight."
+				},
+				"affliction_current_snapshot": {
+					"label": "Existing Raw Snapshot %",
+					"tooltip": "How much stronger your existing snapshot is relative to baseline. Ignores Haste and Crit. Not recommended to use unless you know what you're doing."
+				},
+				"affliction_exhale_window": {
+					"label": "Exhale Window",
+					"tooltip": "Configured leeway for exhaling inhaled DoTs."
 				},
 				"mage_current_combustion_dot_estimate": {
 					"label": "Combustion Dot Value",
@@ -1803,6 +1831,14 @@
 					"thunderstorm_in_range": {
 						"label": "Thunderstorm In Range",
 						"tooltip": "When set to true, thunderstorm casts will cause damage."
+					}
+				}
+			},
+			"warlock": {
+				"affliction": {
+					"exhale_window": {
+						"label": "Soul Swap Exhale Window",
+						"tooltip": "How long, in milliseconds, before inhaled dots expire to exhale during multitarget encounters."
 					}
 				}
 			},

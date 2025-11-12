@@ -11,12 +11,6 @@ func (mm *MarksmanshipHunter) ApplySpecialization() {
 	mm.SteadyFocusAura()
 	mm.PiercingShotsAura()
 	mm.MasterMarksmanAura()
-	// Hotfix only applies to MM
-	mm.AddStaticMod(core.SpellModConfig{
-		Kind:       core.SpellMod_DamageDone_Pct,
-		ClassMask:  hunter.HunterSpellBarrage,
-		FloatValue: 0.15,
-	})
 
 	//Careful Aim
 	caCritMod := mm.AddDynamicMod(core.SpellModConfig{
@@ -91,7 +85,7 @@ func (mm *MarksmanshipHunter) MasterMarksmanAura() {
 	counter = mm.RegisterAura(core.Aura{
 		Label:     "Master Marksman",
 		Duration:  time.Second * 30,
-		ActionID:  core.ActionID{SpellID: 34486},
+		ActionID:  core.ActionID{SpellID: 34487},
 		MaxStacks: 2,
 	})
 
