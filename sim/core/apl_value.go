@@ -255,6 +255,8 @@ func (rot *APLRotation) newAPLValueWithContext(config *proto.APLValue, groupVari
 		value = rot.newValueAllItemStatProcsActive(config.GetAllTrinketStatProcsActive(), config.Uuid)
 	case *proto.APLValue_AnyTrinketStatProcsActive:
 		value = rot.newValueAnyTrinketStatProcsActive(config.GetAnyTrinketStatProcsActive(), config.Uuid)
+	case *proto.APLValue_AnyTrinketStatProcsAvailable:
+		value = rot.newValueAnyTrinketStatProcsAvailable(config.GetAnyTrinketStatProcsAvailable(), config.Uuid)
 	case *proto.APLValue_TrinketProcsMinRemainingTime:
 		value = rot.newValueItemProcsMinRemainingTime(config.GetTrinketProcsMinRemainingTime(), config.Uuid)
 	case *proto.APLValue_TrinketProcsMaxRemainingIcd:
@@ -265,6 +267,8 @@ func (rot *APLRotation) newAPLValueWithContext(config *proto.APLValue, groupVari
 		value = rot.newValueNumStatBuffCooldowns(config.GetNumStatBuffCooldowns(), config.Uuid)
 	case *proto.APLValue_AnyStatBuffCooldownsActive:
 		value = rot.newValueAnyStatBuffCooldownsActive(config.GetAnyStatBuffCooldownsActive(), config.Uuid)
+	case *proto.APLValue_AnyStatBuffCooldownsMinDuration:
+		value = rot.newValueAnyStatBuffCooldownsMinDuration(config.GetAnyStatBuffCooldownsMinDuration(), config.Uuid)
 
 	// Dots
 	case *proto.APLValue_DotIsActive:

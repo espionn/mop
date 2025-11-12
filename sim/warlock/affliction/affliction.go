@@ -2,6 +2,7 @@ package affliction
 
 import (
 	"math"
+	"time"
 
 	"github.com/wowsims/mop/sim/core"
 	"github.com/wowsims/mop/sim/core/proto"
@@ -27,8 +28,10 @@ func RegisterAfflictionWarlock() {
 
 func NewAfflictionWarlock(character *core.Character, options *proto.Player) *AfflictionWarlock {
 	affOptions := options.GetAfflictionWarlock().Options
+
 	affliction := &AfflictionWarlock{
-		Warlock: warlock.NewWarlock(character, options, affOptions.ClassOptions),
+		Warlock:      warlock.NewWarlock(character, options, affOptions.ClassOptions),
+		ExhaleWindow: time.Duration(affOptions.ExhaleWindow * int32(time.Millisecond)),
 	}
 
 	affliction.MaleficGraspMaleficEffectMultiplier = 0.3
@@ -52,6 +55,8 @@ type AfflictionWarlock struct {
 	DrainSoulMaleficEffectMultiplier    float64
 	MaleficGraspMaleficEffectMultiplier float64
 	ProcMaleficEffect                   func(target *core.Unit, coeff float64, sim *core.Simulation)
+
+	ExhaleWindow time.Duration
 }
 
 func (affliction AfflictionWarlock) getMasteryBonus() float64 {
