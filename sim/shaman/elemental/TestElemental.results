@@ -61,7 +61,7 @@ dps_results: {
 dps_results: {
  key: "TestElemental-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 141180.16593
+  dps: 141446.42921
   tps: 102913.23677
  }
 }

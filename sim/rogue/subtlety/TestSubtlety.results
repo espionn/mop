@@ -40,8 +40,8 @@ dps_results: {
 dps_results: {
  key: "TestSubtlety-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 112914.50755
-  tps: 79537.59446
+  dps: 126465.4823
+  tps: 88947.13957
  }
 }
 dps_results: {
@@ -180,8 +180,8 @@ dps_results: {
 dps_results: {
  key: "TestSubtlety-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 102143.70988
-  tps: 71955.61723
+  dps: 105188.69084
+  tps: 74047.15197
  }
 }
 dps_results: {

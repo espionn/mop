@@ -65,8 +65,8 @@ dps_results: {
 dps_results: {
  key: "TestUnholy-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 217375.79673
-  tps: 153881.61391
+  dps: 217918.14022
+  tps: 154262.81099
   hps: 2540.62046
  }
 }
@@ -777,9 +777,9 @@ dps_results: {
 dps_results: {
  key: "TestUnholy-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 227287.9419
-  tps: 159731.42357
-  hps: 2570.09432
+  dps: 243232.1255
+  tps: 169942.46421
+  hps: 2574.58812
  }
 }
 dps_results: {

@@ -69,10 +69,10 @@ dps_results: {
 dps_results: {
  key: "TestProtection-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 114015.80572
-  tps: 746870.59557
-  dtps: 13772.96108
-  hps: 19260.51435
+  dps: 114231.5366
+  tps: 748409.78619
+  dtps: 13811.36745
+  hps: 19247.4065
  }
 }
 dps_results: {
@@ -861,10 +861,10 @@ dps_results: {
 dps_results: {
  key: "TestProtection-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 117909.20148
-  tps: 772418.7106
-  dtps: 13282.19674
-  hps: 20080.00285
+  dps: 122663.64387
+  tps: 804001.86808
+  dtps: 12616.83806
+  hps: 20820.42059
  }
 }
 dps_results: {

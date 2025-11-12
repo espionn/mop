@@ -81,9 +81,9 @@ dps_results: {
 dps_results: {
  key: "TestWindwalker-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 219764.75108
-  tps: 208474.97293
-  hps: 7950.86641
+  dps: 231745.21161
+  tps: 219012.12391
+  hps: 8455.51425
  }
 }
 dps_results: {
@@ -785,9 +785,9 @@ dps_results: {
 dps_results: {
  key: "TestWindwalker-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 216312.03218
-  tps: 205469.12494
-  hps: 7889.89662
+  dps: 220290.5798
+  tps: 209040.81539
+  hps: 8121.01925
  }
 }
 dps_results: {

@@ -69,8 +69,8 @@ dps_results: {
 dps_results: {
  key: "TestBlood-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 98193.7205
-  tps: 551869.51636
+  dps: 98345.72881
+  tps: 552647.1459
   dtps: 35707.34537
   hps: 37560.40303
  }
@@ -879,10 +879,10 @@ dps_results: {
 dps_results: {
  key: "TestBlood-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 101656.02049
-  tps: 556528.24517
-  dtps: 34415.74885
-  hps: 36728.73191
+  dps: 103921.77139
+  tps: 571279.64467
+  dtps: 33504.23851
+  hps: 36700.0598
  }
 }
 dps_results: {

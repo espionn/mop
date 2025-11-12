@@ -87,10 +87,10 @@ dps_results: {
 dps_results: {
  key: "TestBrewmaster-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 267169.19145
-  tps: 1.13899419666e+06
-  dtps: 15357.09543
-  hps: 30286.52117
+  dps: 281286.75029
+  tps: 1.18259408231e+06
+  dtps: 14845.95299
+  hps: 30652.82537
  }
 }
 dps_results: {
@@ -879,10 +879,10 @@ dps_results: {
 dps_results: {
  key: "TestBrewmaster-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 261720.76929
-  tps: 1.12523915006e+06
-  dtps: 16696.93681
-  hps: 30416.8254
+  dps: 265416.37869
+  tps: 1.13926183882e+06
+  dtps: 16673.47263
+  hps: 30829.44297
  }
 }
 dps_results: {

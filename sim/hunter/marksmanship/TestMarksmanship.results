@@ -61,8 +61,8 @@ dps_results: {
 dps_results: {
  key: "TestMarksmanship-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 175571.19137
-  tps: 142122.763
+  dps: 192226.36044
+  tps: 153911.83748
  }
 }
 dps_results: {

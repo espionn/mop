@@ -65,8 +65,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostMasterfrost-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 166724.74494
-  tps: 153471.69299
+  dps: 166941.16358
+  tps: 153612.02633
   hps: 1723.92544
  }
 }
@@ -769,8 +769,8 @@ dps_results: {
 dps_results: {
  key: "TestFrostMasterfrost-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 175226.1621
-  tps: 161095.56304
+  dps: 186301.18902
+  tps: 170478.90808
   hps: 1702.16823
  }
 }

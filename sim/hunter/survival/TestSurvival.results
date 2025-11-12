@@ -61,8 +61,8 @@ dps_results: {
 dps_results: {
  key: "TestSurvival-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 177876.00373
-  tps: 144422.40328
+  dps: 197870.77513
+  tps: 159393.63884
  }
 }
 dps_results: {

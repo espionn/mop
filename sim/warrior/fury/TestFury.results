@@ -40,8 +40,8 @@ dps_results: {
 dps_results: {
  key: "TestFury-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 148705.01874
-  tps: 97470.85285
+  dps: 149558.02309
+  tps: 97573.42496
  }
 }
 dps_results: {
@@ -187,8 +187,8 @@ dps_results: {
 dps_results: {
  key: "TestFury-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 159481.47212
-  tps: 104312.79249
+  dps: 166745.50397
+  tps: 108952.93781
  }
 }
 dps_results: {

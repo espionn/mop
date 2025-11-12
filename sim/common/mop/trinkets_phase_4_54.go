@@ -42,7 +42,7 @@ func init() {
 				}
 
 				stats := stats.Stats{}
-				stats[config.buffedStat] = core.GetItemEffectScaling(itemID, 0.96799999475, state)
+				stats[config.buffedStat] = core.GetItemEffectScaling(itemID, 2.97300004959, state)
 
 				aura := character.NewTemporaryStatsAura(
 					fmt.Sprintf("%s (%s)", config.buffAuraLabel, versionLabel),

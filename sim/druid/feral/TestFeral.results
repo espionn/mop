@@ -73,9 +73,9 @@ dps_results: {
 dps_results: {
  key: "TestFeral-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 159294.71322
-  tps: 224477.59356
-  hps: 11851.6097
+  dps: 182159.76591
+  tps: 242053.25915
+  hps: 12663.25265
  }
 }
 dps_results: {
@@ -777,9 +777,9 @@ dps_results: {
 dps_results: {
  key: "TestFeral-AllItems-EvilEyeofGalakras-105491"
  value: {
-  dps: 152518.54031
-  tps: 264104.28212
-  hps: 11112.56198
+  dps: 157240.57432
+  tps: 271672.67514
+  hps: 10916.684
  }
 }
 dps_results: {

@@ -61,8 +61,8 @@ dps_results: {
 dps_results: {
  key: "TestBeastMastery-AllItems-AssuranceofConsequence-105472"
  value: {
-  dps: 174394.89541
-  tps: 86896.21293
+  dps: 195362.51016
+  tps: 96109.23462
  }
 }
 dps_results: {
