@@ -78,12 +78,13 @@ func (mage *Mage) NewMirrorImage() *MirrorImage {
 
 	mirrorImage := &MirrorImage{
 		Pet: core.NewPet(core.PetConfig{
-			Name:                     "Mirror Image",
-			Owner:                    &mage.Character,
-			BaseStats:                mirrorImageBaseStats,
-			NonHitExpStatInheritance: mirrorImageStatInheritance,
-			EnabledOnStart:           false,
-			IsGuardian:               true,
+			Name:                           "Mirror Image",
+			Owner:                          &mage.Character,
+			BaseStats:                      mirrorImageBaseStats,
+			NonHitExpStatInheritance:       mirrorImageStatInheritance,
+			EnabledOnStart:                 false,
+			IsGuardian:                     true,
+			HasDynamicCastSpeedInheritance: true,
 		}),
 		mageOwner: mage,
 		hasGlyph:  hasGlyph,
@@ -143,7 +144,7 @@ func (mi *MirrorImage) registerFrostboltSpell() {
 		},
 		Cast: core.CastConfig{
 			DefaultCast: core.Cast{
-				GCD:      core.GCDDefault,
+				GCD:      0,
 				CastTime: time.Second * 2,
 			},
 		},
