@@ -385,9 +385,9 @@ dps_results: {
 dps_results: {
  key: "TestBalance-AllItems-RegaliaoftheHauntedForest"
  value: {
-  dps: 99750.10096
-  tps: 101343.55434
-  hps: 15641.1078
+  dps: 111890.33116
+  tps: 113407.48072
+  hps: 17636.15758
  }
 }
 dps_results: {

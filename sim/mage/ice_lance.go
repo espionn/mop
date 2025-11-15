@@ -8,8 +8,8 @@ import (
 func (mage *Mage) registerIceLanceSpell() {
 	actionID := core.ActionID{SpellID: 30455}
 	// Values found at https://wago.tools/db2/SpellEffect?build=5.5.0.60802&filter%5BSpellID%5D=30455
-	iceLanceScaling := 0.335
-	iceLanceCoefficient := 0.335
+	iceLanceScaling := 0.33500000834
+	iceLanceCoefficient := 0.33500000834
 	iceLanceVariance := 0.25
 	hasGlyphIcyVeins := mage.HasMajorGlyph(proto.MageMajorGlyph_GlyphOfIcyVeins)
 	hasGlyphSplittingIce := mage.HasMajorGlyph(proto.MageMajorGlyph_GlyphOfSplittingIce)
@@ -19,7 +19,7 @@ func (mage *Mage) registerIceLanceSpell() {
 			ActionID:       config.ActionID,
 			SpellSchool:    core.SpellSchoolFrost,
 			ProcMask:       core.ProcMaskSpellDamage,
-			Flags:          core.SpellFlagAPL,
+			Flags:          config.Flags,
 			ClassSpellMask: MageSpellIceLance,
 			MissileSpeed:   38,
 
@@ -37,6 +37,7 @@ func (mage *Mage) registerIceLanceSpell() {
 
 	splittingIceSpell := mage.RegisterSpell(getIceLanceSpellBaseConfig(core.SpellConfig{
 		ActionID: actionID.WithTag(1), // Real SpellID: 131080
+		Flags:    core.SpellFlagPassiveSpell,
 
 		DamageMultiplier: 0.4,
 
@@ -59,6 +60,7 @@ func (mage *Mage) registerIceLanceSpell() {
 
 	mage.RegisterSpell(getIceLanceSpellBaseConfig(core.SpellConfig{
 		ActionID: actionID,
+		Flags:    core.SpellFlagAPL,
 
 		ManaCost: core.ManaCostOptions{
 			BaseCostPercent: 1,

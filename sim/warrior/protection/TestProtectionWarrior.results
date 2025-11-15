@@ -729,9 +729,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-AllItems-EnchantWeapon-River'sSong-4446"
  value: {
+<<<<<<< HEAD
   dps: 190690.96252
   tps: 1.09102764601e+06
   dtps: 20507.83126
+=======
+  dps: 190861.43222
+  tps: 1.09220207803e+06
+  dtps: 18534.55587
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -1241,9 +1247,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-AllItems-InsigniaofKypariZar-84078"
  value: {
+<<<<<<< HEAD
   dps: 193352.5047
   tps: 1.10785239998e+06
   dtps: 19945.47002
+=======
+  dps: 193566.43192
+  tps: 1.10958691156e+06
+  dtps: 17757.06346
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -1361,9 +1373,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-AllItems-KnotofTenSongs-84073"
  value: {
+<<<<<<< HEAD
   dps: 193300.25953
   tps: 1.1073996273e+06
   dtps: 19878.21706
+=======
+  dps: 193576.54928
+  tps: 1.10957067658e+06
+  dtps: 17785.6629
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2257,9 +2275,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-AllItems-StuffofNightmares-87160"
  value: {
+<<<<<<< HEAD
   dps: 193454.47918
   tps: 1.10736214965e+06
   dtps: 18884.96777
+=======
+  dps: 193482.49363
+  tps: 1.10686570036e+06
+  dtps: 16416.37091
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2617,9 +2641,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-AllItems-VialofDragon'sBlood-87063"
  value: {
+<<<<<<< HEAD
   dps: 194354.77017
   tps: 1.11376646705e+06
   dtps: 18810.51225
+=======
+  dps: 194225.38196
+  tps: 1.11311302264e+06
+  dtps: 17020.44971
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2737,9 +2767,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-garajal_default-garajal_default-garajal_default-FullBuffs-15.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 128828.89706
   tps: 827373.92783
   dtps: 41130.83468
+=======
+  dps: 128793.97815
+  tps: 827167.74124
+  dtps: 37648.17977
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2849,17 +2885,29 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p2_bis-Basic-default-NoBuffs-15.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 2.87592485584e+06
   tps: 1.758052956604e+07
   dtps: 983163.26131
+=======
+  dps: 2.88431328537e+06
+  tps: 1.763705878173e+07
+  dtps: 953249.38238
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p2_bis-Basic-default-NoBuffs-15.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 142915.24528
   tps: 931341.19197
   dtps: 26820.61148
+=======
+  dps: 145336.98824
+  tps: 943480.75084
+  dtps: 24060.31004
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2897,17 +2945,29 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p3_bis-Basic-default-NoBuffs-15.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 3.27689387679e+06
   tps: 1.993357961406e+07
   dtps: 654558.63911
+=======
+  dps: 3.31015899741e+06
+  tps: 2.018192987574e+07
+  dtps: 621076.12981
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-p3_bis-Basic-default-NoBuffs-15.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 171873.99985
   tps: 1.11815044364e+06
   dtps: 14964.54019
+=======
+  dps: 172975.88969
+  tps: 1.12334560253e+06
+  dtps: 12833.85439
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2929,9 +2989,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-sha_default-sha_default-sha_default-FullBuffs-15.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 161293.09601
   tps: 1.06349583638e+06
   dtps: 22734.20826
+=======
+  dps: 161896.57681
+  tps: 1.06769994816e+06
+  dtps: 19563.09024
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
@@ -2953,9 +3019,15 @@ dps_results: {
 dps_results: {
  key: "TestProtectionWarrior-Settings-Human-sha_default-sha_default-sha_default-NoBuffs-15.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 139363.13805
   tps: 921781.5937
   dtps: 26350.69971
+=======
+  dps: 139774.4716
+  tps: 924516.05243
+  dtps: 23419.03696
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {

@@ -33,2107 +33,3612 @@ character_stats_results: {
 dps_results: {
  key: "TestFrost-AllItems-AgilePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 149502.82857
   tps: 102418.01892
+=======
+  dps: 158595.97707
+  tps: 114528.80057
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-AssuranceofConsequence-105472"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151795.7135
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-AusterePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-BurningPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 150756.99685
   tps: 103287.18738
+=======
+  dps: 159987.17345
+  tps: 115543.76134
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-CapacitivePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148054.17208
   tps: 101047.36383
+=======
+  dps: 157078.12167
+  tps: 113120.58063
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-ChronomancerRegalia"
  value: {
+<<<<<<< HEAD
   dps: 144598.31778
   tps: 98748.20543
+=======
+  dps: 163321.75785
+  tps: 119848.21683
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-CourageousPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 149249.39348
   tps: 101884.67586
+=======
+  dps: 158280.51677
+  tps: 113969.54284
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-DelicateVialoftheSanguinaire-96895"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151796.8282
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-DestructivePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148226.92194
   tps: 101158.5917
+=======
+  dps: 157295.2235
+  tps: 113272.58864
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EffulgentPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EmberPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148614.12909
   tps: 101442.25556
+=======
+  dps: 157627.26489
+  tps: 113496.5453
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-BloodyDancingSteel-5125"
  value: {
+<<<<<<< HEAD
   dps: 146176.79723
   tps: 100161.91689
+=======
+  dps: 155125.36566
+  tps: 112043.92723
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-Colossus-4445"
  value: {
+<<<<<<< HEAD
   dps: 146176.79723
   tps: 100161.91689
+=======
+  dps: 155125.36566
+  tps: 112043.92723
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-DancingSteel-4444"
  value: {
+<<<<<<< HEAD
   dps: 146176.79723
   tps: 100161.91689
+=======
+  dps: 155125.36566
+  tps: 112043.92723
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-ElementalForce-4443"
  value: {
+<<<<<<< HEAD
   dps: 147236.83983
   tps: 101303.88799
+=======
+  dps: 155979.8305
+  tps: 112714.71534
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-River'sSong-4446"
  value: {
+<<<<<<< HEAD
   dps: 146176.79723
   tps: 100161.91689
+=======
+  dps: 155125.36566
+  tps: 112043.92723
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-SpiritofConquest-5124"
  value: {
+<<<<<<< HEAD
   dps: 150877.82738
   tps: 103347.92186
+=======
+  dps: 160210.57661
+  tps: 115746.16183
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnchantWeapon-Windsong-4441"
  value: {
+<<<<<<< HEAD
   dps: 148634.28174
   tps: 101513.13693
+=======
+  dps: 156932.52918
+  tps: 112806.1388
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EnigmaticPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148226.92194
   tps: 101158.5917
+=======
+  dps: 157295.2235
+  tps: 113272.58864
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EternalPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-EvilEyeofGalakras-105491"
  value: {
+<<<<<<< HEAD
   dps: 143067.71415
   tps: 97980.14717
+=======
+  dps: 151793.91771
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-FabledFeatherofJi-Kun-96842"
  value: {
+<<<<<<< HEAD
   dps: 143074.29386
   tps: 97980.14717
+=======
+  dps: 151785.97903
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Fen-Yu,FuryofXuen-102248"
  value: {
+<<<<<<< HEAD
   dps: 149625.52102
   tps: 101624.02264
+=======
+  dps: 159287.5895
+  tps: 113938.22385
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-FleetPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148421.92606
   tps: 100591.60518
+=======
+  dps: 157367.51006
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-ForlornPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148614.12909
   tps: 101442.25556
+=======
+  dps: 157627.26489
+  tps: 113496.5453
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-GazeoftheTwins-96915"
  value: {
+<<<<<<< HEAD
   dps: 146067.86101
   tps: 100023.24511
+=======
+  dps: 155108.89017
+  tps: 111966.65957
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Gladiator'sRegalia"
  value: {
+<<<<<<< HEAD
   dps: 147045.02228
   tps: 95297.45565
+=======
+  dps: 155345.21339
+  tps: 105851.59783
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Gong-Lu,StrengthofXuen-102249"
  value: {
+<<<<<<< HEAD
   dps: 149625.52102
   tps: 101624.02264
+=======
+  dps: 159287.5895
+  tps: 113938.22385
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Horridon'sLastGasp-96757"
  value: {
+<<<<<<< HEAD
   dps: 153385.21041
   tps: 105093.3686
+=======
+  dps: 162809.40502
+  tps: 117617.84802
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-ImpassivePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 148226.92194
   tps: 101158.5917
+=======
+  dps: 157295.2235
+  tps: 113272.58864
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-IndomitablePrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-InscribedBagofHydra-Spawn-96828"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151796.8282
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Ji-Kun'sRisingWinds-96843"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151796.8282
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-NitroBoosts-4223"
  value: {
+<<<<<<< HEAD
   dps: 150756.99685
   tps: 103287.18738
+=======
+  dps: 159987.17345
+  tps: 115543.76134
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-PhaseFingers-4697"
  value: {
+<<<<<<< HEAD
   dps: 150650.59541
   tps: 103440.51454
+=======
+  dps: 159152.96553
+  tps: 114845.24634
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-PowerfulPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-PriceofProgress-81266"
  value: {
+<<<<<<< HEAD
   dps: 148105.3868
   tps: 101439.21008
+=======
+  dps: 157088.6434
+  tps: 113419.26667
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Primordius'TalismanofRage-96873"
  value: {
+<<<<<<< HEAD
   dps: 147165.02721
   tps: 100882.30683
+=======
+  dps: 156107.77313
+  tps: 112796.13639
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-PurifiedBindingsofImmerseus-105422"
  value: {
+<<<<<<< HEAD
   dps: 167831.23192
   tps: 114528.34136
+=======
+  dps: 180628.54415
+  tps: 130342.42183
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Qian-Le,CourageofNiuzao-102245"
  value: {
+<<<<<<< HEAD
   dps: 147721.33899
   tps: 100360.92716
+=======
+  dps: 157019.61189
+  tps: 112206.30358
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Qian-Ying,FortitudeofNiuzao-102250"
  value: {
+<<<<<<< HEAD
   dps: 145221.65237
   tps: 98575.82963
+=======
+  dps: 154818.64703
+  tps: 110618.79524
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-RegaliaoftheBurningScroll"
  value: {
+<<<<<<< HEAD
   dps: 132768.15276
   tps: 88953.12073
+=======
+  dps: 142080.41753
+  tps: 100263.34392
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-RegaliaoftheChromaticHydra"
  value: {
+<<<<<<< HEAD
   dps: 145760.08077
   tps: 96577.3807
+=======
+  dps: 154584.15805
+  tps: 108109.55896
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Renataki'sSoulCharm-96741"
  value: {
+<<<<<<< HEAD
   dps: 143065.61877
   tps: 97984.44668
+=======
+  dps: 151786.25771
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-ReverberatingPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 149502.82857
   tps: 102418.01892
+=======
+  dps: 158595.97707
+  tps: 114528.80057
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-RevitalizingPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 149502.82857
   tps: 102418.01892
+=======
+  dps: 158595.97707
+  tps: 114528.80057
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-RuneofRe-Origination-96918"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151796.8282
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-SinisterPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 158962.51316
   tps: 108619.986
+=======
+  dps: 168455.38697
+  tps: 121271.20181
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-SoothingTalismanoftheShado-PanAssault-94509"
  value: {
+<<<<<<< HEAD
   dps: 151731.33605
   tps: 104065.35976
+=======
+  dps: 161030.13442
+  tps: 116407.52473
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-SoulBarrier-96927"
  value: {
+<<<<<<< HEAD
   dps: 143077.88134
   tps: 97980.14717
+=======
+  dps: 151796.8282
+  tps: 109580.67778
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-SparkofZandalar-96770"
  value: {
+<<<<<<< HEAD
   dps: 146019.23977
   tps: 100005.18392
+=======
+  dps: 155409.96511
+  tps: 111922.6209
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-SynapseSprings(MarkII)-4898"
  value: {
+<<<<<<< HEAD
   dps: 153659.15831
   tps: 105251.57524
+=======
+  dps: 162724.15623
+  tps: 117587.90483
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-TalismanofBloodlust-96864"
  value: {
+<<<<<<< HEAD
   dps: 146593.19822
   tps: 100589.997
+=======
+  dps: 155560.74047
+  tps: 112182.20858
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-TheGloamingBlade-88149"
  value: {
+<<<<<<< HEAD
   dps: 150756.99685
   tps: 103287.18738
+=======
+  dps: 159987.17345
+  tps: 115543.76134
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-TyrannicalPrimalDiamond"
  value: {
+<<<<<<< HEAD
   dps: 147381.73176
   tps: 100591.60518
+=======
+  dps: 156263.00097
+  tps: 112504.55113
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-UnerringVisionofLeiShen-96930"
  value: {
+<<<<<<< HEAD
   dps: 159977.39961
   tps: 108460.42235
+=======
+  dps: 169550.70063
+  tps: 121702.60645
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Wushoolay'sFinalChoice-96785"
  value: {
+<<<<<<< HEAD
   dps: 160347.01374
   tps: 109599.42178
+=======
+  dps: 170349.57862
+  tps: 122968.93035
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-Xing-Ho,BreathofYu'lon-102246"
  value: {
+<<<<<<< HEAD
   dps: 188950.22089
   tps: 137661.16674
+=======
+  dps: 199342.93273
+  tps: 150888.13606
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-AllItems-ZenAlchemistStone-75274"
  value: {
+<<<<<<< HEAD
   dps: 152986.04913
   tps: 103202.63313
+=======
+  dps: 163443.109
+  tps: 116684.27325
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Average-Default"
  value: {
+<<<<<<< HEAD
   dps: 154217.41979
   tps: 105590.11154
+=======
+  dps: 163689.00207
+  tps: 118046.84319
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 399941.36449
   tps: 258573.14978
+=======
+  dps: 401813.08765
+  tps: 361827.11024
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 153691.41008
   tps: 104944.59945
+=======
+  dps: 163470.59048
+  tps: 117625.61663
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 211183.2811
   tps: 142664.16449
+=======
+  dps: 225468.19381
+  tps: 158489.49483
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 314056.87322
   tps: 205074.80745
+=======
+  dps: 314245.8392
+  tps: 289312.63125
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 114020.56511
   tps: 82548.88217
+=======
+  dps: 120707.76158
+  tps: 92596.74783
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 122750.23565
   tps: 88832.71707
+=======
+  dps: 130777.03148
+  tps: 100042.47052
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 495211.00596
   tps: 355540.65917
+=======
+  dps: 496566.48976
+  tps: 460029.12548
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 106701.88988
   tps: 72058.13669
+=======
+  dps: 111016.21787
+  tps: 79935.64629
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 145341.28946
   tps: 94547.34093
+=======
+  dps: 154383.41405
+  tps: 104443.63384
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 394836.22314
   tps: 285770.30383
+=======
+  dps: 393489.46223
+  tps: 370707.53706
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80933.56158
   tps: 56495.90908
+=======
+  dps: 83258.67321
+  tps: 62916.42221
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84234.67218
   tps: 56861.32914
+=======
+  dps: 85957.76119
+  tps: 62634.24266
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 322226.16803
   tps: 191842.28144
+=======
+  dps: 324708.71196
+  tps: 281985.04697
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 148595.44104
   tps: 100290.31586
+=======
+  dps: 158812.88125
+  tps: 113129.65539
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 205857.94519
   tps: 137707.49347
+=======
+  dps: 221145.91021
+  tps: 154252.12908
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 244079.22551
   tps: 152648.87689
+=======
+  dps: 246231.7124
+  tps: 221056.9472
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 110519.35523
   tps: 79092.52818
+=======
+  dps: 117677.65502
+  tps: 89428.25988
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 120786.11725
   tps: 87009.70966
+=======
+  dps: 129141.43314
+  tps: 98000.87996
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 346423.10286
   tps: 199195.71123
+=======
+  dps: 351933.06383
+  tps: 307659.53168
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 102169.89514
   tps: 67562.37639
+=======
+  dps: 107050.92718
+  tps: 76188.35464
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 139485.61191
   tps: 88709.66869
+=======
+  dps: 149935.11347
+  tps: 100327.90209
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 269138.71794
   tps: 158356.20133
+=======
+  dps: 268771.17516
+  tps: 244214.19867
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 77405.19238
   tps: 53071.89173
+=======
+  dps: 79551.93859
+  tps: 59157.989
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 82292.8332
   tps: 54912.44223
+=======
+  dps: 85316.19966
+  tps: 61624.97298
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 450347.26543
   tps: 309384.6825
+=======
+  dps: 453360.12199
+  tps: 414755.4455
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 149059.8972
   tps: 101230.99804
+=======
+  dps: 156936.29789
+  tps: 112133.64734
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 203230.32684
   tps: 135279.76381
+=======
+  dps: 216281.89005
+  tps: 149732.36391
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 355010.2173
   tps: 243864.36465
+=======
+  dps: 355038.56397
+  tps: 330897.64935
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 109694.70787
   tps: 78560.66103
+=======
+  dps: 116238.22097
+  tps: 88452.35525
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 118836.01302
   tps: 85503.91108
+=======
+  dps: 127112.67758
+  tps: 96937.68249
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 326093.77967
   tps: 242783.40809
+=======
+  dps: 459985.21166
+  tps: 433419.26804
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 58719.76718
   tps: 31565.04387
+=======
+  dps: 78376.92328
+  tps: 50904.14561
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 104669.33888
   tps: 59034.41733
+=======
+  dps: 131273.25493
+  tps: 83025.57114
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 346829.86441
   tps: 271063.38353
+=======
+  dps: 332125.88982
+  tps: 315286.26553
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 54012.24883
   tps: 33406.81175
+=======
+  dps: 53252.45364
+  tps: 35406.20472
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 75571.7278
   tps: 49117.66231
+=======
+  dps: 79241.91088
+  tps: 56728.06229
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 393098.88832
   tps: 274866.72175
+=======
+  dps: 396361.4216
+  tps: 377026.94546
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 151874.86325
   tps: 105629.98347
+=======
+  dps: 161294.19961
+  tps: 117750.58371
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 210464.29302
   tps: 142822.12452
+=======
+  dps: 225022.88074
+  tps: 158931.81005
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 309588.68694
   tps: 223375.25795
+=======
+  dps: 308530.20229
+  tps: 304448.99251
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 112563.09505
   tps: 83124.80054
+=======
+  dps: 119317.64862
+  tps: 93136.48801
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 122482.37953
   tps: 89424.31841
+=======
+  dps: 130414.49916
+  tps: 100545.01804
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 492194.85621
   tps: 366494.84278
+=======
+  dps: 491508.63844
+  tps: 469350.54572
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 106503.05275
   tps: 72365.02479
+=======
+  dps: 110651.24449
+  tps: 80406.13874
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 145338.62008
   tps: 95039.58141
+=======
+  dps: 154383.38391
+  tps: 104920.82604
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 389982.37789
   tps: 295513.76041
+=======
+  dps: 385041.71213
+  tps: 377392.08766
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80449.02765
   tps: 56901.41909
+=======
+  dps: 82691.41488
+  tps: 63078.58348
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84232.34469
   tps: 57293.71262
+=======
+  dps: 85955.705
+  tps: 63065.46601
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 359205.74788
   tps: 225892.39885
+=======
+  dps: 348700.58635
+  tps: 316766.62481
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 134062.24189
   tps: 91400.8035
+=======
+  dps: 141940.97672
+  tps: 102675.81148
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 185925.01723
   tps: 124601.69089
+=======
+  dps: 197491.66867
+  tps: 138356.10504
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 285602.8939
   tps: 181652.53452
+=======
+  dps: 272696.33463
+  tps: 254137.03949
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 100069.2581
   tps: 71985.24617
+=======
+  dps: 105014.86851
+  tps: 80488.19773
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 108875.79638
   tps: 77781.585
+=======
+  dps: 115150.22891
+  tps: 87533.35828
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 445782.33501
   tps: 309926.7064
+=======
+  dps: 430561.33609
+  tps: 398689.98386
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 95322.71447
   tps: 62381.67177
+=======
+  dps: 98413.28311
+  tps: 69203.21152
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 130697.62253
   tps: 82365.55876
+=======
+  dps: 138033.72144
+  tps: 90972.49825
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 352920.08815
   tps: 246518.36981
+=======
+  dps: 340355.37595
+  tps: 320617.95505
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 72326.48009
   tps: 48683.30304
+=======
+  dps: 73299.45066
+  tps: 53820.32858
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 76341.58884
   tps: 49608.13067
+=======
+  dps: 77259.70997
+  tps: 54628.21851
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 322649.19477
   tps: 206019.67904
+=======
+  dps: 323144.51428
+  tps: 292150.54828
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 120602.00999
   tps: 82725.64937
+=======
+  dps: 128358.02971
+  tps: 92786.91271
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 170833.83
   tps: 115992.25918
+=======
+  dps: 182911.32742
+  tps: 128835.2506
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 249762.47424
   tps: 160872.55895
+=======
+  dps: 248547.29119
+  tps: 229365.27182
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 88742.46455
   tps: 64474.419
+=======
+  dps: 93602.57776
+  tps: 72143.52358
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 97392.70882
   tps: 71075.25599
+=======
+  dps: 102866.69342
+  tps: 79387.67558
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 398553.80724
   tps: 282643.19085
+=======
+  dps: 400923.40188
+  tps: 372795.50182
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84376.70056
   tps: 56707.57926
+=======
+  dps: 87503.53999
+  tps: 63277.93907
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 114452.62377
   tps: 73737.61827
+=======
+  dps: 124123.74616
+  tps: 83663.36869
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 314456.06021
   tps: 224550.64169
+=======
+  dps: 312367.9738
+  tps: 295301.01594
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 63341.6143
   tps: 44297.42709
+=======
+  dps: 64969.45027
+  tps: 49273.74331
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 66339.27853
   tps: 44753.25049
+=======
+  dps: 68735.58705
+  tps: 50199.35864
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 249864.32641
   tps: 147093.66843
+=======
+  dps: 252094.80649
+  tps: 218610.68377
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 116628.69769
   tps: 78790.86755
+=======
+  dps: 123908.71451
+  tps: 88770.01097
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 165819.26247
   tps: 111425.03662
+=======
+  dps: 178573.35689
+  tps: 124984.03468
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 189822.42886
   tps: 113299.56654
+=======
+  dps: 190988.77043
+  tps: 172255.8448
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84941.01596
   tps: 60724.29684
+=======
+  dps: 90018.04037
+  tps: 68750.77974
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 93986.39632
   tps: 67711.07434
+=======
+  dps: 99859.06857
+  tps: 76369.56942
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 279125.8097
   tps: 155270.22067
+=======
+  dps: 281255.73706
+  tps: 246283.59945
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80273.9897
   tps: 52865.18252
+=======
+  dps: 83584.65461
+  tps: 59425.24663
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 110280.70465
   tps: 69547.88517
+=======
+  dps: 119694.67352
+  tps: 79846.97522
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 211016.41498
   tps: 119025.85567
+=======
+  dps: 209281.16131
+  tps: 190504.24365
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 59330.70281
   tps: 40552.39424
+=======
+  dps: 61254.28649
+  tps: 45770.07694
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 62529.56761
   tps: 41025.7213
+=======
+  dps: 64713.56358
+  tps: 46421.43901
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 358779.74459
   tps: 240100.88053
+=======
+  dps: 361389.34885
+  tps: 330814.70044
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 118089.54791
   tps: 80299.10966
+=======
+  dps: 124798.76195
+  tps: 89483.61206
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 165165.42989
   tps: 110442.20905
+=======
+  dps: 175973.71979
+  tps: 121650.67451
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 277751.65923
   tps: 185608.70948
+=======
+  dps: 276923.50522
+  tps: 258412.04792
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 85278.87779
   tps: 61278.40258
+=======
+  dps: 90871.78361
+  tps: 69599.81377
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 96495.53834
   tps: 70028.35917
+=======
+  dps: 101205.04094
+  tps: 77664.79668
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 237572.69658
   tps: 173495.49401
+=======
+  dps: 327672.16112
+  tps: 307210.78786
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 43761.81856
   tps: 22817.89981
+=======
+  dps: 57059.56
+  tps: 36145.89665
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 85298.08963
   tps: 48340.95653
+=======
+  dps: 103399.2902
+  tps: 65082.20046
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 309262.51575
   tps: 238857.09056
+=======
+  dps: 293327.66881
+  tps: 280269.20261
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 45728.02086
   tps: 29021.57073
+=======
+  dps: 45131.22165
+  tps: 31114.62613
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 59043.15106
   tps: 38089.04397
+=======
+  dps: 60105.05189
+  tps: 42322.66203
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 317239.28885
   tps: 223219.67581
+=======
+  dps: 317902.72883
+  tps: 307529.04847
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 119449.86896
   tps: 83506.15496
+=======
+  dps: 127429.11435
+  tps: 93824.84102
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 170282.33295
   tps: 116320.86708
+=======
+  dps: 182365.41628
+  tps: 129188.35861
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 244884.93475
   tps: 177466.90606
+=======
+  dps: 243866.93675
+  tps: 245156.65298
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 87126.15225
   tps: 64824.66268
+=======
+  dps: 92166.00933
+  tps: 72706.67999
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 97396.29145
   tps: 71514.88063
+=======
+  dps: 102568.67401
+  tps: 79680.61856
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 396238.79813
   tps: 293359.50371
+=======
+  dps: 396139.75971
+  tps: 382315.01632
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 83879.44284
   tps: 57014.24696
+=======
+  dps: 87175.99337
+  tps: 63623.30412
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 114486.64027
   tps: 74215.38294
+=======
+  dps: 124091.71651
+  tps: 84106.74779
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 312945.18258
   tps: 237347.08252
+=======
+  dps: 309592.08413
+  tps: 307087.68388
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 62814.44335
   tps: 44542.50144
+=======
+  dps: 64780.41027
+  tps: 49813.41126
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 66341.32194
   tps: 45183.99547
+=======
+  dps: 68735.87305
+  tps: 50593.83999
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 291945.82303
   tps: 182019.24883
+=======
+  dps: 281320.90961
+  tps: 258427.9017
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 105979.56984
   tps: 72710.4225
+=======
+  dps: 111856.07395
+  tps: 81335.63732
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 150464.58833
   tps: 101430.1268
+=======
+  dps: 160286.89478
+  tps: 112573.2457
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 226993.79751
   tps: 142844.06895
+=======
+  dps: 216881.35665
+  tps: 204359.56807
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 77584.66584
   tps: 56059.79649
+=======
+  dps: 81654.30295
+  tps: 63116.68371
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 86443.03686
   tps: 62345.36504
+=======
+  dps: 90645.46634
+  tps: 69573.33296
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 358883.62649
   tps: 246001.43966
+=======
+  dps: 349379.23848
+  tps: 325189.85672
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 75515.26492
   tps: 49202.69947
+=======
+  dps: 77951.50481
+  tps: 54928.88046
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 103145.16201
   tps: 64263.48721
+=======
+  dps: 111027.94341
+  tps: 72895.87888
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 281735.88919
   tps: 194494.34733
+=======
+  dps: 271371.37418
+  tps: 257128.07471
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 56476.43777
   tps: 38081.75944
+=======
+  dps: 57743.55219
+  tps: 42721.55262
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Orc-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 60120.70127
   tps: 39072.68472
+=======
+  dps: 61761.2777
+  tps: 43808.75702
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 393736.01676
   tps: 258737.67334
+=======
+  dps: 397492.82734
+  tps: 358413.38356
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 153881.43809
   tps: 105337.41581
+=======
+  dps: 163476.33844
+  tps: 118279.34607
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 207732.97801
   tps: 139403.37573
+=======
+  dps: 224115.53618
+  tps: 158774.54528
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 310650.64505
   tps: 206047.58854
+=======
+  dps: 309339.37423
+  tps: 284488.37922
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 113492.91568
   tps: 82458.02489
+=======
+  dps: 120933.86133
+  tps: 92618.91074
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 123909.87815
   tps: 90199.75777
+=======
+  dps: 132893.3566
+  tps: 101452.94836
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 493205.35319
   tps: 359597.49807
+=======
+  dps: 492517.3899
+  tps: 455778.59156
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 107067.82254
   tps: 72471.8677
+=======
+  dps: 111895.33113
+  tps: 80988.6005
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 147345.7144
   tps: 95667.58006
+=======
+  dps: 156992.64344
+  tps: 107028.27212
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 392418.45527
   tps: 288814.00174
+=======
+  dps: 391895.61792
+  tps: 369248.0567
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80767.86124
   tps: 56873.19697
+=======
+  dps: 83463.33856
+  tps: 63242.32332
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 85764.47513
   tps: 59016.34018
+=======
+  dps: 90249.88873
+  tps: 66480.7519
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 311834.06705
   tps: 192364.58529
+=======
+  dps: 319342.67904
+  tps: 277867.96645
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 149511.37676
   tps: 101277.05757
+=======
+  dps: 159341.62808
+  tps: 114193.86623
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 203311.44198
   tps: 135991.47255
+=======
+  dps: 216726.03481
+  tps: 153011.21423
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 243966.6003
   tps: 152897.95128
+=======
+  dps: 246909.11484
+  tps: 221768.29157
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 110723.41828
   tps: 79646.29354
+=======
+  dps: 117246.80035
+  tps: 89174.09407
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 123004.7977
   tps: 89108.01324
+=======
+  dps: 130738.90906
+  tps: 99195.25397
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 339930.99978
   tps: 199235.13232
+=======
+  dps: 347845.21855
+  tps: 304747.4948
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 103505.59409
   tps: 68914.80914
+=======
+  dps: 107898.98811
+  tps: 76970.2105
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 142324.41618
   tps: 91044.44057
+=======
+  dps: 151360.23593
+  tps: 101786.91745
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 265786.28814
   tps: 159933.3717
+=======
+  dps: 267496.45262
+  tps: 242869.97486
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 76936.54732
   tps: 53097.72275
+=======
+  dps: 80375.59646
+  tps: 60060.94575
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 83145.76102
   tps: 56441.35047
+=======
+  dps: 88121.75654
+  tps: 64254.95849
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 445651.1422
   tps: 310844.60636
+=======
+  dps: 450293.4608
+  tps: 412538.73148
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 147903.75005
   tps: 100736.46987
+=======
+  dps: 156284.89685
+  tps: 112186.88523
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 197794.47257
   tps: 131419.70938
+=======
+  dps: 211180.76574
+  tps: 147629.58035
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 352813.37452
   tps: 246948.9186
+=======
+  dps: 353103.80618
+  tps: 328909.9463
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 110308.50252
   tps: 79637.87336
+=======
+  dps: 116496.28386
+  tps: 88740.34385
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 121920.89025
   tps: 88323.61266
+=======
+  dps: 128882.35747
+  tps: 98159.12911
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 103775.02199
   tps: 56017.49771
+=======
+  dps: 106341.03818
+  tps: 84150.83042
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 29658.64163
   tps: 7371.66119
+=======
+  dps: 31164.72513
+  tps: 9506.28117
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 68843.99811
   tps: 26819.16899
+=======
+  dps: 71734.64817
+  tps: 31839.92279
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 240735.82363
   tps: 183041.14089
+=======
+  dps: 299664.33746
+  tps: 283590.77213
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 41216.17006
   tps: 22552.672
+=======
+  dps: 49838.82923
+  tps: 32350.82052
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 63020.80068
   tps: 37795.92001
+=======
+  dps: 75346.44908
+  tps: 52354.39801
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 388502.25461
   tps: 275610.17199
+=======
+  dps: 391837.0454
+  tps: 374660.64801
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 150823.17713
   tps: 104905.20392
+=======
+  dps: 161244.36225
+  tps: 118314.65743
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 207527.27235
   tps: 139831.61953
+=======
+  dps: 223913.96697
+  tps: 159197.57792
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 305599.80584
   tps: 224617.78434
+=======
+  dps: 308332.92275
+  tps: 305097.0923
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 112241.91126
   tps: 83270.01251
+=======
+  dps: 120043.15836
+  tps: 93660.38902
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 123906.95252
   tps: 90765.86941
+=======
+  dps: 132714.07096
+  tps: 101972.76743
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 487169.71991
   tps: 367171.61808
+=======
+  dps: 490737.86688
+  tps: 468733.22569
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 106549.9363
   tps: 72726.41921
+=======
+  dps: 110354.96205
+  tps: 80480.57166
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 147343.8443
   tps: 96239.21639
+=======
+  dps: 157000.83627
+  tps: 107583.13343
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 386650.73815
   tps: 298095.20235
+=======
+  dps: 387372.87736
+  tps: 379839.24343
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80174.51237
   tps: 57118.86232
+=======
+  dps: 83007.7179
+  tps: 63482.9666
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 85767.78984
   tps: 59552.98142
+=======
+  dps: 90246.96069
+  tps: 66977.09682
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 355641.13297
   tps: 227610.59863
+=======
+  dps: 344602.43847
+  tps: 313599.25592
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 134199.93181
   tps: 91813.7056
+=======
+  dps: 141561.16589
+  tps: 102554.5259
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 182946.64612
   tps: 121772.10541
+=======
+  dps: 196125.142
+  tps: 138611.0088
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 279632.31288
   tps: 181421.04442
+=======
+  dps: 270604.53415
+  tps: 252254.87969
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 99579.69463
   tps: 71966.332
+=======
+  dps: 105574.26962
+  tps: 80852.60702
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 109752.25061
   tps: 78986.14052
+=======
+  dps: 117033.24809
+  tps: 88766.87987
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 440565.14634
   tps: 311277.76927
+=======
+  dps: 430741.39542
+  tps: 398914.66833
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 95504.95528
   tps: 62720.95087
+=======
+  dps: 98648.1308
+  tps: 69639.92508
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 132394.79204
   tps: 83353.95076
+=======
+  dps: 140098.04097
+  tps: 93233.08002
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 350720.8832
   tps: 250115.04385
+=======
+  dps: 339428.01178
+  tps: 319719.90483
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 72055.26256
   tps: 48951.59065
+=======
+  dps: 74431.25258
+  tps: 55028.14239
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_bis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 77569.53919
   tps: 51462.03877
+=======
+  dps: 81009.31814
+  tps: 57954.13591
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 319416.92363
   tps: 207224.77957
+=======
+  dps: 319495.63151
+  tps: 289025.47004
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 120755.06861
   tps: 83182.54137
+=======
+  dps: 128679.79902
+  tps: 93433.6321
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 170975.3008
   tps: 116598.94601
+=======
+  dps: 180108.31345
+  tps: 127741.14312
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 248752.97921
   tps: 162685.82894
+=======
+  dps: 247548.92405
+  tps: 228364.08526
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 88963.68605
   tps: 64967.7601
+=======
+  dps: 93824.65827
+  tps: 72197.86688
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 98308.17073
   tps: 72196.23952
+=======
+  dps: 103348.94679
+  tps: 79228.58342
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 394341.00235
   tps: 283162.60154
+=======
+  dps: 398849.49565
+  tps: 370360.1744
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84456.87919
   tps: 57198.40647
+=======
+  dps: 88406.87565
+  tps: 64044.89065
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 117703.71666
   tps: 76666.90026
+=======
+  dps: 125666.24706
+  tps: 85369.61844
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 311573.48113
   tps: 226221.37461
+=======
+  dps: 310781.0733
+  tps: 293320.24513
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 62900.74608
   tps: 44255.66356
+=======
+  dps: 64780.92646
+  tps: 49222.63267
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-DefaultTalents-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 66969.76915
   tps: 45840.08397
+=======
+  dps: 68931.24587
+  tps: 50530.1389
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 248251.36737
   tps: 148853.13705
+=======
+  dps: 253599.68978
+  tps: 221081.54691
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 116384.70624
   tps: 78982.18524
+=======
+  dps: 123870.16209
+  tps: 88943.72094
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 165266.7015
   tps: 111333.71647
+=======
+  dps: 175547.92826
+  tps: 123949.71018
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 190969.24521
   tps: 115208.25724
+=======
+  dps: 190923.69173
+  tps: 172076.32498
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84968.65495
   tps: 61188.60478
+=======
+  dps: 90413.42928
+  tps: 68943.41631
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 96164.36478
   tps: 69914.72152
+=======
+  dps: 101646.29651
+  tps: 77541.87987
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 272005.80579
   tps: 154382.68681
+=======
+  dps: 276632.84356
+  tps: 242082.34637
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 80800.89789
   tps: 53546.86965
+=======
+  dps: 84668.06198
+  tps: 60552.54301
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 113778.58985
   tps: 72653.52028
+=======
+  dps: 121802.5875
+  tps: 81644.24718
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 207532.92164
   tps: 120721.14015
+=======
+  dps: 208948.39138
+  tps: 189823.68021
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 59747.35679
   tps: 41261.45341
+=======
+  dps: 61707.57731
+  tps: 46169.55645
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 64301.68817
   tps: 43246.24131
+=======
+  dps: 65858.41679
+  tps: 47830.49042
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 355941.45885
   tps: 243702.77458
+=======
+  dps: 358814.95005
+  tps: 328681.88643
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 117392.2063
   tps: 80079.13116
+=======
+  dps: 124501.43494
+  tps: 89543.69678
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 163187.28019
   tps: 109141.49874
+=======
+  dps: 173598.93744
+  tps: 121630.25504
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 274978.70621
   tps: 188590.98125
+=======
+  dps: 276139.56522
+  tps: 257581.16448
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 85527.51767
   tps: 61947.30371
+=======
+  dps: 90520.86428
+  tps: 69329.98789
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 95151.29037
   tps: 69177.68017
+=======
+  dps: 101232.0744
+  tps: 77337.7361
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 411681.07933
   tps: 323914.23724
+=======
+  dps: 357043.32342
+  tps: 336153.23092
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 65264.57917
   tps: 41057.55921
+=======
+  dps: 61709.28757
+  tps: 40380.60492
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 105048.08848
   tps: 65818.31171
+=======
+  dps: 114222.94457
+  tps: 75072.8434
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 260477.9296
   tps: 201988.93178
+=======
+  dps: 274577.21937
+  tps: 261491.40204
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 40699.72927
   tps: 25146.57108
+=======
+  dps: 44091.40779
+  tps: 30414.68435
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row5_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 61679.55703
   tps: 41306.63547
+=======
+  dps: 64093.83311
+  tps: 46205.31784
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 312339.43361
   tps: 222906.59899
+=======
+  dps: 315488.21209
+  tps: 305534.72075
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 119787.27925
   tps: 84134.6754
+=======
+  dps: 126829.67163
+  tps: 93665.96453
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 170879.18826
   tps: 117051.21778
+=======
+  dps: 180050.68137
+  tps: 128268.61749
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 243821.59209
   tps: 181024.3638
+=======
+  dps: 243438.02321
+  tps: 246746.53814
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 87345.71795
   tps: 65326.0863
+=======
+  dps: 92662.76277
+  tps: 72978.53316
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 98260.62451
   tps: 72700.9402
+=======
+  dps: 103077.75836
+  tps: 79596.907
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 391107.28934
   tps: 294001.45983
+=======
+  dps: 394388.92044
+  tps: 380479.87415
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 84881.28547
   tps: 58214.90164
+=======
+  dps: 87791.69988
+  tps: 64166.19813
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 117698.65771
   tps: 77179.46372
+=======
+  dps: 125666.79684
+  tps: 85907.49194
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 308862.40305
   tps: 238134.99305
+=======
+  dps: 307686.58985
+  tps: 305503.6814
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 62850.1654
   tps: 45001.04282
+=======
+  dps: 64235.38715
+  tps: 49432.66964
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent1-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 66973.35716
   tps: 46399.06567
+=======
+  dps: 68932.6942
+  tps: 51011.67501
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 286801.65867
   tps: 181359.50566
+=======
+  dps: 278252.20254
+  tps: 255308.54027
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 106450.48459
   tps: 73379.18132
+=======
+  dps: 111931.12797
+  tps: 81575.3203
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 150637.5262
   tps: 101923.55043
+=======
+  dps: 157855.85814
+  tps: 111606.79913
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 223269.8127
   tps: 143030.52705
+=======
+  dps: 213632.9076
+  tps: 201221.39132
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 78274.85688
   tps: 57043.39997
+=======
+  dps: 82221.93259
+  tps: 63525.78142
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 87134.21109
   tps: 63316.43447
+=======
+  dps: 91101.82062
+  tps: 69432.7683
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 354226.12128
   tps: 246097.89106
+=======
+  dps: 345973.92634
+  tps: 321534.39577
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 75387.942
   tps: 49358.67585
+=======
+  dps: 78027.82858
+  tps: 55223.73873
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-FullBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 105817.4921
   tps: 66827.32233
+=======
+  dps: 112287.35137
+  tps: 74396.37075
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongMultiTarget"
  value: {
+<<<<<<< HEAD
   dps: 278898.96364
   tps: 196551.30502
+=======
+  dps: 270467.28821
+  tps: 256015.48616
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-LongSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 56014.14921
   tps: 38054.69211
+=======
+  dps: 57238.90972
+  tps: 42379.04442
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-Settings-Troll-p1_prebis-Row6_Talent3-Basic-frost_aoe-NoBuffs-0.0yards-ShortSingleTarget"
  value: {
+<<<<<<< HEAD
   dps: 60631.13802
   tps: 40037.41374
+=======
+  dps: 61919.17972
+  tps: 44118.65716
+>>>>>>> wowsims-mop/master
  }
 }
 dps_results: {
  key: "TestFrost-SwitchInFrontOfTarget-Default"
  value: {
+<<<<<<< HEAD
   dps: 153881.43809
   tps: 105337.41581
+=======
+  dps: 163476.33844
+  tps: 118279.34607
+>>>>>>> wowsims-mop/master
  }
 }
