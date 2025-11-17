@@ -57,7 +57,7 @@ jobs:
                       git commit -m "Auto-update .deployedprotoversion file due to API version increase"
                       git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
                       git push --set-upstream origin github-actions
-                      gh pr create --fil --base ptr
+                      gh pr create --fill --base ptr
                       gh pr merge --merge --delete-branch
                   fi
               env:
