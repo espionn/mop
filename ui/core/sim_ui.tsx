@@ -183,7 +183,7 @@ export abstract class SimUI extends Component {
 		new SimTitleDropdown(titleElem, config.spec, { noDropdown: this.isWithinRaidSim });
 
 		this.simActionsContainer = this.rootElem.querySelector('.sim-sidebar-actions') as HTMLElement;
-		this.addNoticeForLocalSim();
+		// this.addNoticeForLocalSim();
 
 		this.iterationsPicker = new NumberPicker(this.simActionsContainer, this.sim, {
 			id: 'simui-iterations',
