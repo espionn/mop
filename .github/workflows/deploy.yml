@@ -74,7 +74,7 @@ jobs:
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
-                  repository-name: wowsims/pages-deploy
+                  repository-name: wowsims/ptr-deploy
                   branch: main
                   folder: dist/mop
                   target-folder: mop
