@@ -67,6 +67,10 @@ jobs:
               run: |
                   make test
 
+            - name: Write robots.txt for PTR
+              run: |
+                  printf "User-agent: *\nDisallow: /" >> dist/mop/robots.txt
+
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
