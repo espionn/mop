@@ -64,8 +64,9 @@ func (moonkin *BalanceDruid) EnableEclipseBar() {
 	}
 }
 
-func (moonkin *BalanceDruid) SuspendEclipseBar() {
+func (moonkin *BalanceDruid) SuspendEclipseBar(sim *core.Simulation) {
 	moonkin.eclipseEnergyBar.previousGainMask = moonkin.eclipseEnergyBar.gainMask
+	moonkin.eclipseEnergyBar.invokeCallback(moonkin.currentEclipse, false, sim)
 	moonkin.eclipseEnergyBar.resetWithMask(NoEnergy)
 }
 
@@ -159,17 +160,6 @@ func (moonkin *BalanceDruid) RegisterEclipseAuras() {
 				solarEclipse.Deactivate(sim)
 			}
 		}
-	})
-
-	moonkin.MakeProcTriggerAura(core.ProcTrigger{
-		Name:               "Celestial Alignment Trigger" + moonkin.Label,
-		Callback:           core.CallbackOnCastComplete,
-		ClassSpellMask:     druid.DruidSpellCelestialAlignment,
-		TriggerImmediately: true,
-		Handler: func(sim *core.Simulation, _ *core.Spell, _ *core.SpellResult) {
-			lunarEclipse.Deactivate(sim)
-			solarEclipse.Deactivate(sim)
-		},
 	})
 }
 
