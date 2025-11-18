@@ -39,6 +39,13 @@ var ItemSetRegaliaOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 		2: func(agent core.Agent, setBonusAura *core.Aura) {
 			shaman := agent.(ShamanAgent).GetShaman()
 
+			damageCalculatorFactory := func(nTargets int32) core.BaseDamageCalculator {
+				return func(sim *core.Simulation, spell *core.Spell) float64 {
+					baseDamage := sim.RollWithLabel(32375, 37625, "Lighting Strike 2pT14")
+					return baseDamage / float64(nTargets)
+				}
+			}
+
 			lightningStrike := shaman.RegisterSpell(core.SpellConfig{
 				ActionID:         core.ActionID{SpellID: 138146},
 				SpellSchool:      core.SpellSchoolNature,
@@ -48,10 +55,8 @@ var ItemSetRegaliaOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 				DamageMultiplier: 1,
 				ThreatMultiplier: 1,
 				ApplyEffects: func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
-					baseDamage := sim.RollWithLabel(32375, 37625, "Lighting Strike 2pT14")
 					nTargets := shaman.Env.ActiveTargetCount()
-					spell.CalcAoeDamage(sim, baseDamage/float64(nTargets), spell.OutcomeMagicHitAndCrit)
-
+					spell.CalcAoeDamageWithVariance(sim, spell.OutcomeMagicHitAndCrit, damageCalculatorFactory(nTargets))
 					spell.WaitTravelTime(sim, func(sim *core.Simulation) {
 						spell.DealBatchedAoeDamage(sim)
 					})
