@@ -64,11 +64,12 @@ var ItemSetRegaliaOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 			})
 
 			setBonusAura.AttachProcTrigger(core.ProcTrigger{
-				Name:           "Regalia of the Witch Doctor 2P",
-				Callback:       core.CallbackOnSpellHitDealt,
-				Outcome:        core.OutcomeLanded,
-				ProcChance:     0.1,
-				ClassSpellMask: SpellMaskLightningBolt | SpellMaskChainLightningOverload | SpellMaskLavaBeam | SpellMaskLavaBeamOverload | SpellMaskChainLightning | SpellMaskChainLightningOverload,
+				Name:               "Regalia of the Witch Doctor 2P",
+				Callback:           core.CallbackOnSpellHitDealt,
+				Outcome:            core.OutcomeLanded,
+				ProcChance:         0.1,
+				TriggerImmediately: true,
+				ClassSpellMask:     SpellMaskLightningBolt | SpellMaskChainLightningOverload | SpellMaskLavaBeam | SpellMaskLavaBeamOverload | SpellMaskChainLightning | SpellMaskChainLightningOverload,
 				Handler: func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 					lightningStrike.Cast(sim, result.Target)
 				},
@@ -77,9 +78,10 @@ var ItemSetRegaliaOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 		4: func(agent core.Agent, setBonusAura *core.Aura) {
 			shaman := agent.(ShamanAgent).GetShaman()
 			setBonusAura.AttachProcTrigger(core.ProcTrigger{
-				Name:           "Regalia of the Witch Doctor 4P",
-				Callback:       core.CallbackOnCastComplete,
-				ClassSpellMask: SpellMaskLavaBurst | SpellMaskLavaBurstOverload,
+				Name:               "Regalia of the Witch Doctor 4P",
+				Callback:           core.CallbackOnCastComplete,
+				ClassSpellMask:     SpellMaskLavaBurst | SpellMaskLavaBurstOverload,
+				TriggerImmediately: true,
 				Handler: func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 					//TODO simc says 1.5s, tooltip says 1s, SpellEffect in the db is a dummy. Maybe the tooltip can't show decimals. I guess we need to wait for the bonus to be available to be sure.
 					shaman.Ascendance.CD.Reduce(time.Millisecond * 1500)
@@ -184,9 +186,10 @@ var ItemSetBattlegearOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 		2: func(agent core.Agent, setBonusAura *core.Aura) {
 			shaman := agent.(ShamanAgent).GetShaman()
 			setBonusAura.AttachProcTrigger(core.ProcTrigger{
-				Name:           "Battlegear of the Witch Doctor 2P",
-				Callback:       core.CallbackOnCastComplete,
-				ClassSpellMask: SpellMaskStormstrikeDamage | SpellMaskStormblastCast,
+				Name:               "Battlegear of the Witch Doctor 2P",
+				Callback:           core.CallbackOnCastComplete,
+				ClassSpellMask:     SpellMaskStormstrikeDamage | SpellMaskStormblastCast,
+				TriggerImmediately: true,
 				Handler: func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 					if !shaman.StormstrikeCastResult.Landed() || (spell.Matches(SpellMaskStormstrikeDamage) && !spell.ProcMask.Matches(core.ProcMaskMeleeOHSpecial)) {
 						return
@@ -199,9 +202,10 @@ var ItemSetBattlegearOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 		4: func(agent core.Agent, setBonusAura *core.Aura) {
 			shaman := agent.(ShamanAgent).GetShaman()
 			setBonusAura.AttachProcTrigger(core.ProcTrigger{
-				Name:           "Battlegear of the Witch Doctor 4P",
-				Callback:       core.CallbackOnCastComplete,
-				ClassSpellMask: SpellMaskWindfuryWeapon,
+				Name:               "Battlegear of the Witch Doctor 4P",
+				Callback:           core.CallbackOnCastComplete,
+				ClassSpellMask:     SpellMaskWindfuryWeapon,
+				TriggerImmediately: true,
 				Handler: func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
 					shaman.FeralSpirit.CD.Reduce(time.Second * 8)
 					shaman.UpdateMajorCooldowns()
