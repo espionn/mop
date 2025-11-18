@@ -176,7 +176,7 @@ func (shaman *Shaman) ApplyEnhancementTalents() {
 			mwManaCostmod.Deactivate()
 		},
 		OnCastComplete: func(aura *core.Aura, sim *core.Simulation, spell *core.Spell) {
-			if !spell.Matches(mwAffectedSpells) {
+			if !spell.Matches(mwAffectedSpells) || spell.Flags.Matches(SpellFlagIsEcho) {
 				return
 			}
 			//If AS is active and MW < 5 stacks, do not consume MW stacks
