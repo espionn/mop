@@ -181,9 +181,9 @@ var ItemSetBattlegearOfTheWitchDoctor = core.NewItemSet(core.ItemSet{
 			setBonusAura.AttachProcTrigger(core.ProcTrigger{
 				Name:           "Battlegear of the Witch Doctor 2P",
 				Callback:       core.CallbackOnCastComplete,
-				ClassSpellMask: SpellMaskStormstrikeCast,
+				ClassSpellMask: SpellMaskStormstrikeDamage | SpellMaskStormblastCast,
 				Handler: func(sim *core.Simulation, spell *core.Spell, result *core.SpellResult) {
-					if !shaman.StormstrikeCastResult.Landed() {
+					if !shaman.StormstrikeCastResult.Landed() || (spell.Matches(SpellMaskStormstrikeDamage) && !spell.ProcMask.Matches(core.ProcMaskMeleeOHSpecial)) {
 						return
 					}
 					shaman.MaelstromWeaponAura.Activate(sim)

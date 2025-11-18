@@ -134,7 +134,7 @@ func (shaman *Shaman) ApplyEnhancementTalents() {
 	shaman.MakeProcTriggerAura(core.ProcTrigger{
 		Name:               "Static Shock",
 		Callback:           core.CallbackOnSpellHitDealt,
-		ClassSpellMask:     SpellMaskStormstrikeDamage | SpellMaskLavaLash,
+		ClassSpellMask:     SpellMaskStormstrikeDamage | SpellMaskStormblastDamage | SpellMaskLavaLash,
 		ProcChance:         0.45,
 		Outcome:            core.OutcomeLanded,
 		TriggerImmediately: true,
