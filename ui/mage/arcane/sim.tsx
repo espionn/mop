@@ -49,7 +49,10 @@ const SPEC_CONFIG = registerSpecConfig(Spec.SpecArcaneMage, {
 		epWeights: Presets.P1_BIS_EP_PRESET.epWeights,
 		// Default stat caps for the Reforge Optimizer
 		statCaps: (() => {
-			return new Stats().withPseudoStat(PseudoStat.PseudoStatSpellHitPercent, 15);
+			const hitCap = new Stats().withPseudoStat(PseudoStat.PseudoStatSpellHitPercent, 15);
+			const hasteCap = new Stats().withPseudoStat(PseudoStat.PseudoStatSpellHastePercent, 53.32);
+
+			return hitCap.add(hasteCap);
 		})(),
 		// Default soft caps for the Reforge optimizer
 		softCapBreakpoints: (() => {

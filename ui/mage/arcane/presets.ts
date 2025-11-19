@@ -29,8 +29,8 @@ export const P3_BIS_EP_PRESET = PresetUtils.makePresetEpWeights(
 		[Stat.StatIntellect]: 1.23,
 		[Stat.StatSpellPower]: 1,
 		[Stat.StatHitRating]: 1.71,
-		[Stat.StatCritRating]: 0.51,
-		[Stat.StatHasteRating]: 0.59,
+		[Stat.StatCritRating]: 0.61,
+		[Stat.StatHasteRating]: 0.90,
 		[Stat.StatMasteryRating]: 0.74,
 	}),
 );
@@ -41,9 +41,9 @@ export const P1_BIS_EP_PRESET = PresetUtils.makePresetEpWeights(
 		[Stat.StatIntellect]: 1.24,
 		[Stat.StatSpellPower]: 1,
 		[Stat.StatHitRating]: 1.45,
-		[Stat.StatCritRating]: 0.52,
-		[Stat.StatHasteRating]: 0.6,
-		[Stat.StatMasteryRating]: 0.63,
+		[Stat.StatCritRating]: 0.59,
+		[Stat.StatHasteRating]: 0.64,
+		[Stat.StatMasteryRating]: 0.70,
 	}),
 );
 
