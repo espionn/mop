@@ -18336,8 +18336,7 @@
 {"id":263200,"name":"Wicked Witch's Band","icon":"inv_misc_bag_28_halloween","type":11,"quality":4,"scalingOptions":{"0":{"randPropPoints":194,"stats":{"2":76,"3":78,"6":69,"14":119,"21":35},"ilvl":277}}},
 {"id":263201,"name":"The Horseman's Seal","icon":"inv_misc_bag_28_halloween","type":11,"quality":4,"scalingOptions":{"0":{"randPropPoints":194,"stats":{"2":76,"3":78,"5":60,"7":73,"14":119},"ilvl":277}}},
 {"id":263204,"name":"The Horseman's Baleful Blade","icon":"inv_sword_07","type":13,"weaponType":9,"handType":1,"weaponSpeed":2.7,"quality":4,"scalingOptions":{"0":{"randPropPoints":149,"weaponDamageMin":930,"weaponDamageMax":1727,"stats":{"1":53,"2":79,"5":52,"8":52,"12":155,"13":155},"ilvl":277}}},
-{"id":263207,"name":"The Horseman's Horrific Helm","icon":"inv_helmet_21","type":1,"armorType":4,"gemSockets":[1,4],"socketBonus":[8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"quality":4,"scalingOptions":{"0":{"randPropPoints":348,"stats":{"0":188,"2":217,"5":82,"6":102,"17":2246},"ilvl":277}}},
-{"id":265774,"name":"Platinum Boots of Expeditious Retreat","icon":"inv_gizmo_rocketbootextreme","type":10,"armorType":2,"quality":3,"scalingOptions":{"0":{"randPropPoints":47,"stats":{"17":350},"ilvl":112}}}
+{"id":263207,"name":"The Horseman's Horrific Helm","icon":"inv_helmet_21","type":1,"armorType":4,"gemSockets":[1,4],"socketBonus":[8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"quality":4,"scalingOptions":{"0":{"randPropPoints":348,"stats":{"0":188,"2":217,"5":82,"6":102,"17":2246},"ilvl":277}}}
 ],
 "randomSuffixes":[
 ],

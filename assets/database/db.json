@@ -17675,6 +17675,7 @@
 {"id":84617,"name":"Revealing Strike","icon":"inv_sword_97","hasBuff":true},
 {"id":84654,"name":"Bandit's Guile","icon":"ability_rogue_preyontheweak"},
 {"id":84714,"name":"Frozen Orb","icon":"spell_frost_frozenorb"},
+{"id":84721,"name":"Frozen Orb","icon":"spell_frost_frozenorb","hasBuff":true},
 {"id":84745,"name":"Shallow Insight","icon":"inv_bijou_green","hasBuff":true},
 {"id":84746,"name":"Moderate Insight","icon":"inv_bijou_yellow","hasBuff":true},
 {"id":84747,"name":"Deep Insight","icon":"inv_bijou_red","hasBuff":true},
