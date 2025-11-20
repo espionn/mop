@@ -169,7 +169,7 @@ func (shaman *Shaman) ApplyElementalTalents() {
 		FloatValue: -0.25,
 	}).AttachSpellMod(core.SpellModConfig{
 		Kind:       core.SpellMod_DamageDone_Pct,
-		School:     core.SpellSchoolFire | core.SpellSchoolFrost | core.SpellSchoolNature,
+		School:     core.SpellSchoolElemental,
 		FloatValue: 0.2,
 	}).AttachSpellMod(core.SpellModConfig{
 		Kind:       core.SpellMod_DamageDone_Pct,
