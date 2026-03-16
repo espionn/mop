@@ -59,7 +59,7 @@ func init() {
 
 			ApplyEffects: func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
 				baseDamage := sim.Roll(core.CalcScalingSpellEffectVarianceMinMax(proto.Class_ClassUnknown, 0.13300000131, 0.15000000596))
-				apDamage := 0.75 * core.Ternary(isHunter, spell.RangedAttackPower()*2, spell.MeleeAttackPower())
+				apDamage := 0.75 * core.Ternary(isHunter, spell.RangedAttackPower(), spell.MeleeAttackPower())
 
 				outcome := core.Ternary(isHunter, spell.OutcomeRangedHitAndCritNoBlock, spell.OutcomeMeleeSpecialNoBlockDodgeParry)
 				spell.CalcAndDealDamage(sim, target, baseDamage+apDamage, outcome)
