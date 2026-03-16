@@ -11,7 +11,7 @@ func (demonology *DemonologyWarlock) registerHotfixes() {
 	demonology.AddStaticMod(core.SpellModConfig{
 		ClassMask:  warlock.WarlockSpellChaosWave,
 		Kind:       core.SpellMod_DamageDone_Pct,
-		FloatValue: 0.7,
+		FloatValue: 0.0,
 	})
 
 	// 2025-07-31 - Hellfire damage increased by 25%.
@@ -21,7 +21,7 @@ func (demonology *DemonologyWarlock) registerHotfixes() {
 	demonology.AddStaticMod(core.SpellModConfig{
 		ClassMask:  warlock.WarlockSpellHellfire | warlock.WarlockSpellImmolationAura,
 		Kind:       core.SpellMod_DamageDone_Pct,
-		FloatValue: 0.10,
+		FloatValue: 0.00,
 	})
 
 	// 2025-09-31 - Doom’s damage over time increased from 33% to 50%.
@@ -47,7 +47,7 @@ func (demonology *DemonologyWarlock) registerHotfixes() {
 		imp.AddStaticMod(core.SpellModConfig{
 			ClassMask:  warlock.WarlockSpellImpFireBolt,
 			Kind:       core.SpellMod_DamageDone_Pct,
-			FloatValue: 0.60,
+			FloatValue: 0.00,
 		})
 	}
 }

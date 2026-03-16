@@ -11,7 +11,7 @@ func (cat *FeralDruid) applyPredatorySwiftness() {
 	cat.PredatorySwiftnessAura = core.BlockPrepull(cat.RegisterAura(core.Aura{
 		Label:    "Predatory Swiftness",
 		ActionID: core.ActionID{SpellID: 69369},
-		Duration: time.Second * 12,
+		Duration: time.Second * 8,
 
 		OnGain: func(_ *core.Aura, _ *core.Simulation) {
 			cat.HealingTouch.CastTimeMultiplier -= 1

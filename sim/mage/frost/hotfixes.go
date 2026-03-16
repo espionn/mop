@@ -11,6 +11,6 @@ func (frost *FrostMage) registerHotfixes() {
 	frost.AddStaticMod(core.SpellModConfig{
 		ClassMask:  mage.MageSpellFrostbolt | mage.MageSpellFrostfireBolt | mage.MageSpellIceLance,
 		Kind:       core.SpellMod_DamageDone_Pct,
-		FloatValue: 0.05,
+		FloatValue: 0.00,
 	})
 }

@@ -49,7 +49,7 @@ func (ww *WindwalkerMonk) registerTigereyeBrew() {
 			stacksToConsume := min(10, ww.TigereyeBrewStackAura.GetStacks())
 
 			// 2025-11-20 - Base %damage value on Tigereye Brew per stack increased to 5% (was 3.5%).
-			damagePerStack := 0.05 + ww.getMasteryPercent()
+			damagePerStack := 0.035 + ww.getMasteryPercent()
 			damageMultiplier = (1 + damagePerStack*float64(stacksToConsume))
 
 			ww.PseudoStats.DamageDealtMultiplier *= damageMultiplier

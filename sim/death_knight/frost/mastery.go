@@ -45,13 +45,13 @@ func (fdk *FrostDeathKnight) registerMastery() {
 		},
 		OnGain: func(aura *core.Aura, sim *core.Simulation) {
 			masteryMultiplier := fdk.getMasteryPercent(fdk.GetStat(stats.MasteryRating))
-			physicalMod.UpdateFloatValue(masteryMultiplier * extraMultiplier)
-			physicalMod.Activate()
+			//physicalMod.UpdateFloatValue(masteryMultiplier * extraMultiplier)
+			//physicalMod.Activate()
 			frostMod.UpdateFloatValue(masteryMultiplier)
 			frostMod.Activate()
 		},
 		OnExpire: func(aura *core.Aura, sim *core.Simulation) {
-			physicalMod.Deactivate()
+			//physicalMod.Deactivate()
 			frostMod.Deactivate()
 		},
 	}))

@@ -40,17 +40,17 @@ func (hunt *Hunter) ApplyHotfixes() {
 		hunt.AddStaticMod(core.SpellModConfig{
 			Kind:       core.SpellMod_DamageDone_Pct,
 			ClassMask:  HunterSpellAimedShot,
-			FloatValue: 0.05,
+			FloatValue: 0.00,
 		})
 		hunt.AddStaticMod(core.SpellModConfig{
 			Kind:       core.SpellMod_DamageDone_Pct,
 			ClassMask:  HunterSpellSteadyShot | HunterSpellChimeraShot,
-			FloatValue: 0.08,
+			FloatValue: 0.00,
 		})
 		hunt.AddStaticMod(core.SpellModConfig{
 			Kind:       core.SpellMod_DamageDone_Pct,
 			ClassMask:  HunterSpellBarrage,
-			FloatValue: 0.15,
+			FloatValue: 0.0,
 		})
 	}
 	// BM: https://www.wowhead.com/mop-classic/spell=137015/hotfix-passive

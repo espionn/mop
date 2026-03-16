@@ -97,7 +97,7 @@ func (spriest *ShadowPriest) ApplyTalents() {
 	// 2025-07-01 - Shadowform’s damage increase increased to 35% (was 25%).
 	// 2025-11-13 - Shadowform’s damage decreased to 32% (was 35%).
 	spriest.AddStaticMod(core.SpellModConfig{
-		FloatValue: 0.25 + 0.07,
+		FloatValue: 0.25,
 		School:     core.SpellSchoolShadow,
 		Kind:       core.SpellMod_DamageDone_Pct,
 	})

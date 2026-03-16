@@ -28,7 +28,7 @@ func (asnRogue *AssassinationRogue) registerBlindsidePassive() {
 	// Assassin's Resolve: +35% Multiplicative all-school damage
 	// +20 Energy handled in base rogue
 	if asnRogue.HasDagger(core.MainHand) || asnRogue.HasDagger(core.OffHand) {
-		asnRogue.PseudoStats.DamageDealtMultiplier *= 1.35
+		asnRogue.PseudoStats.DamageDealtMultiplier *= 1.2
 	}
 
 	energyMod := asnRogue.AddDynamicMod(core.SpellModConfig{

@@ -18,10 +18,10 @@ func (ret *RetributionPaladin) registerHotfixPassive() {
 		// 2025-11-20 5.5.0 damage increase to Crusader Strike, Exorcism, Judgment, Divine Storm, Hammer of the Righteous, and Hammer of Wrath increased to 20% (was 10%).
 		Kind:       core.SpellMod_DamageDone_Pct,
 		ClassMask:  paladin.SpellMaskBuilderRet | paladin.SpellMaskDivineStorm,
-		FloatValue: 0.2,
+		FloatValue: 0.0,
 	}).AttachSpellMod(core.SpellModConfig{
 		Kind:       core.SpellMod_DamageDone_Pct,
 		ClassMask:  paladin.SpellMaskTemplarsVerdict,
-		FloatValue: 0.27,
+		FloatValue: 0.0,
 	})
 }

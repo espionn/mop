@@ -16,7 +16,7 @@ func (shaman *Shaman) ApplyElementalTalents() {
 	shaman.AddStaticMod(core.SpellModConfig{
 		ClassMask:  SpellMaskLightningBolt | SpellMaskLightningBoltOverload,
 		Kind:       core.SpellMod_DamageDone_Pct,
-		FloatValue: 0.05,
+		FloatValue: 0.00,
 	})
 
 	// 5.5.1 : 0% -> 10%

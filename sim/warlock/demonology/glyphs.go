@@ -31,7 +31,7 @@ func (demo *DemonologyWarlock) registerImpSwarm() {
 		ThreatMultiplier: 1,
 
 		ApplyEffects: func(sim *core.Simulation, target *core.Unit, spell *core.Spell) {
-			for range 5 {
+			for range 4 {
 				demo.SpawnImp(sim)
 			}
 
